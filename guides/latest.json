@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "guide_id": "cividle-guide-kompendium",
+  "version": "2026.09.24.1",
+  "title": "CivIdle Guide & Kompendium",
+  "notes": "Bebilderter HTML-Guide mit 18 CivIdle-Referenzbildern, aktuellem Projektwissen, historischem PDF und Original-Kompendiumsdateien.",
+  "release_commit": "240533077b66f455d7327b89a855b10fe6da655c",
+  "start_file": "CivIdle_Guide.html",
+  "total_bytes": 1081769,
+  "files": [
+    {
+      "path": "CivIdle_Guide.html",
+      "bytes": 7744,
+      "sha256": "d72769c0c09aefcad617c33200b25e0032e43e921bc8a4e37dc1261dd8613dde",
+      "git_blob_sha1": "f1c47bb59ec4eab22d7aa9375bb3d3bb9da4f2f3"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 387,
+      "sha256": "09a65dea3f1fa82fae034b0ef51f2829665f8d1535b1d6fae385c7ea7b0f1a59",
+      "git_blob_sha1": "6e481eb589b790d0095b4cd15c78c094840f2b01"
+    },
+    {
+      "path": "GUIDE_INFO.json",
+      "bytes": 434,
+      "sha256": "4c3b820f64213dd8ac10144377029541a7f02a542b6b070e7e9c19260500c130",
+      "git_blob_sha1": "82393436dc709aea3e46d5d40cf598aa9d0b6090"
+    },
+    {
+      "path": "kompendium/CIVIDLE_KOMPENDIUM_STAND.md",
+      "bytes": 4969,
+      "sha256": "be79399ddb4d7c74eb34d2728faf19492f07b4cb1b09fc0ffb62eaebb9a45dff",
+      "git_blob_sha1": "520205deb18406e1fe19c30df30356e14e5cb0d3"
+    },
+    {
+      "path": "kompendium/BOT_WISSENSSTAND.md",
+      "bytes": 4273,
+      "sha256": "aa0d2a280645b70f06cd20853077632351de5d743e376526702fe44bf85ed579",
+      "git_blob_sha1": "5e3a4b7ad6cd40f47a97743ef9c17cf748daa12e"
+    },
+    {
+      "path": "kompendium/APP_ANLEITUNG.md",
+      "bytes": 7904,
+      "sha256": "db4eb18a27fdd3cb2dcb2735307186b523597b4232b3ce1365123b5fe9629995",
+      "git_blob_sha1": "a84a0c0555ed8449f5c62a37011ecb5589bdd14e"
+    },
+    {
+      "path": "kompendium/catalog.json",
+      "bytes": 11482,
+      "sha256": "91eebd1565479f093c20ce99a55c1668af7a170a53db425ad4e8f889110b067c",
+      "git_blob_sha1": "82bd424c5e265754e86b4fdb4d434c5280e454b4"
+    },
+    {
+      "path": "bilder/gebaeude_holzfaeller.png",
+      "bytes": 4079,
+      "sha256": "8d1f2ad486d537e9437cadf7008d0fa589f7d3c0fb21b7b94e84dbe5c93d00ac",
+      "git_blob_sha1": "ffa030df75f41a8c9b0804f36f0e648dec0c6f22"
+    },
+    {
+      "path": "bilder/gebaeude_steinbruch.png",
+      "bytes": 4341,
+      "sha256": "99a69aa52177deaf106e1b557ab0a45aed19315a7df9ec7b97d3ba7873bfb015",
+      "git_blob_sha1": "b9b529cbfa46f19396f31e97f6423798723aa20a"
+    },
+    {
+      "path": "bilder/gebaeude_huette.png",
+      "bytes": 5751,
+      "sha256": "5029b2017d43feac589ad481612b015c794185b65d49604c0b0222d25c095549",
+      "git_blob_sha1": "01c42fabbdb7b91810809d8b46a1bca9adde3869"
+    },
+    {
+      "path": "bilder/gebaeude_aquaedukt.png",
+      "bytes": 8123,
+      "sha256": "314ff466ab1461aebf75d7b67d65bad698b19ebf4e6687487cc2d4279715d52e",
+      "git_blob_sha1": "d2101b7ea3c33faf06bdbb4b86a4b689365b5a35"
+    },
+    {
+      "path": "bilder/gebaeude_statistikamt.png",
+      "bytes": 5526,
+      "sha256": "802efb537865cf05094f72f47a9a502a1a671f49e3a1f796b306361d7bb91464",
+      "git_blob_sha1": "d730b5374ddfe6b759403214adc7cc98a0f3fbb8"
+    },
+    {
+      "path": "bilder/forschung_mauerwerk.png",
+      "bytes": 9308,
+      "sha256": "85f8e7df845188911a0ecc7352353032a995c6ba0dd2e5e8ddea3e607294f59c",
+      "git_blob_sha1": "7000a3f43d77f717a932edfc20a5b174d0cc6fd4"
+    },
+    {
+      "path": "bilder/forschung_bronzeverarbeitung.png",
+      "bytes": 3613,
+      "sha256": "5610701c82602b0de0d2f6efb386af72db2c130d355d40542cb59691071ce977",
+      "git_blob_sha1": "6e355b2e2ae9f27fcac6dad1b94ac7f55248e727"
+    },
+    {
+      "path": "bilder/forschung_architektur.png",
+      "bytes": 28404,
+      "sha256": "18c9dc091f1ffa1185cc4e98efc61d270f7a7c9d7453485a8d28051c48bf69fe",
+      "git_blob_sha1": "892cfac71e5596ab83ca26c4da37cee9582a9dd1"
+    },
+    {
+      "path": "bilder/forschung_ingenieurwesen.png",
+      "bytes": 32393,
+      "sha256": "1367a607ab523ce2d74c885299a64f1f1fd74522a3859adb2344f508d00f4f12",
+      "git_blob_sha1": "1b65ca4371c9444b4e75776a8cfd26d37919367a"
+    },
+    {
+      "path": "bilder/rebirth_ansicht.png",
+      "bytes": 2427,
+      "sha256": "1db0f1e1234200005a7397aa6f290eb13333e553883f6d6b67ff848cb6f3c1bd",
+      "git_blob_sha1": "4c56c0f3a84939c23ca577e7ddb52a9c8973dedf"
+    },
+    {
+      "path": "bilder/rebirth_bestaetigen.png",
+      "bytes": 4488,
+      "sha256": "ce2750613541dfb0d4f5118a8f19fe30911db4d4fce2ca0b161b00c1026f0ded",
+      "git_blob_sha1": "834adf21d9aa13dd49d0211594d3aa903b5ff888"
+    },
+    {
+      "path": "bilder/rebirth_beispiel.jpg",
+      "bytes": 134825,
+      "sha256": "497466e241598cfd22ae4c661092aa47dd1111b287b61fe280e03e73189ef5e7",
+      "git_blob_sha1": "7a61b0d077ce10cdfc397bbcaf4035b8d25138b7"
+    },
+    {
+      "path": "bilder/gp_sokrates.png",
+      "bytes": 78752,
+      "sha256": "1a23831364fa3c4657dab86894a4ffcf7e3f363adeef11f365e2e4ee9065c95b",
+      "git_blob_sha1": "a6729174a4bc7f413f43ea1e49bab3d043eb96ca"
+    },
+    {
+      "path": "bilder/gp_plato.png",
+      "bytes": 96519,
+      "sha256": "2be485e5ea4ef7815db292dd8be2d90bbf75dc1f187ae02200b13d2d2fb90d8f",
+      "git_blob_sha1": "4f904a9ff8f6652156326e0bcc2f721de351c253"
+    },
+    {
+      "path": "bilder/gp_ramses_ii.png",
+      "bytes": 96931,
+      "sha256": "c386fe40b92975fa47afbf1ebfdda724977587bbd12e607660354a6b6f8fa1c6",
+      "git_blob_sha1": "bbdcb16caf0709afc266043b99630ca06b8d7b02"
+    },
+    {
+      "path": "bilder/gp_king_david.png",
+      "bytes": 96493,
+      "sha256": "87649c88ebc3f66855a1ed537a07520111e85047ea9eb4df108edc5cd188e390",
+      "git_blob_sha1": "d069b5fc28dd6c87643f3d33686b0ff40bbf3720"
+    },
+    {
+      "path": "bilder/gp_laozi.png",
+      "bytes": 86814,
+      "sha256": "d0a8b3cf86b691de97396fc38f0af3548dee65320e5e93b4e7e94c30c89af11c",
+      "git_blob_sha1": "89c6d3c44d5cbcfbffe6384ada143bad9db420ed"
+    },
+    {
+      "path": "bilder/gp_hanno.png",
+      "bytes": 103987,
+      "sha256": "a664c68ed69828cb52926d2040d0379b37e285071aeabca20515f4735710ab94",
+      "git_blob_sha1": "c7d0aed3a0cb0a95bcb28e467c79e478a626512d"
+    },
+    {
+      "path": "originale/CivIdle_Ultimatives_Kompendium_Build968_2026-09-06.pdf",
+      "bytes": 201518,
+      "sha256": "1082f1dbab8bc05984efce701a5f52ef176b5779853b5a8e12aec258cf7c809b",
+      "git_blob_sha1": "7ffb522d738c2e861b5730a9bf268f051407d48c"
+    },
+    {
+      "path": "originale/CivIdle_Kompendium_2026-09-05.zip",
+      "bytes": 19530,
+      "sha256": "0ca9c57297ef9dc77484fd51aa55d26d9ba5ea5df08e3443d9527d595fa432ce",
+      "git_blob_sha1": "55787d0d559ee0e69dfec15bdeb5fb046973dea2"
+    },
+    {
+      "path": "originale/CivIdle_Erkenntnisse_und_Guide_2026-09-21.zip",
+      "bytes": 20754,
+      "sha256": "913f8ce933bceb776ab87b35b11b9f899b26736ce3851fe32738d734d6a18d11",
+      "git_blob_sha1": "666641da72e9fde17795e4a5c90fc299d29689fe"
+    }
+  ]
+}
