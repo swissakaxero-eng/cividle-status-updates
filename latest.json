@@ -1,187 +1,187 @@
 {
   "app_id": "cividle-status-desktop",
   "archive": {
-    "bytes": 14640073,
-    "sha256": "d557d629cf1b3c8093ffc935490b2eb9e8589c9ed189a054c5b65d6cc3234960"
+    "bytes": 14642630,
+    "sha256": "8a4e6119f8f0c4c424c6cb5c40e5497b3867329d61dd1123397adc735f7ae530"
   },
-  "build_number": 2026092402,
+  "build_number": 2026092403,
   "exe": {
-    "bytes": 14892448,
-    "sha256": "75e1cfb5e3957b99c3e03a2bfd8059b89e750f134ca09a8560156c8898d41577"
+    "bytes": 14894830,
+    "sha256": "f46cc9fabee26fc52e843a6b904fcc5b2c77947fd30cc531d42b9d4da4c6bdf1"
   },
-  "notes": "Vollstaendiger bebilderter CivIdle-Guide und Kompendium-Download direkt in der Status-App.",
+  "notes": "Robuster Updatekanal mit GitHub-API, Raw-GitHub- und CDN-Fallback.",
   "schema_version": 1,
   "segments": [
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "70e5716817331fa957c57ce2567fe77cc4378e79",
-        "sha256": "f0d060a2d836472dbe723b901db82852507edd0419170b991487a8a95a398470"
+        "git_blob_sha1": "b3f7c2902503b11884aa70bd78f1f29998d1d8fb",
+        "sha256": "fa5f2c13c0b45c4cb6242f3f5dd172854e4fdc1275debddd526c2704d2c2d814"
       },
       "member": "CivIdle_Status_Windows.zip.part01.bin",
-      "sha256": "098c06ad4458310c62382b0278fc84d8d2567801cdd01dcc07b9146b3e064b38"
+      "sha256": "d485fe05f1db497c25e7b4223f4fc99189b74bab1cbd34fc5b259066d533866f"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "2f299b686b7dc2deec7e3db7c3e0f0c5f6b61b86",
-        "sha256": "4b3299ca7cee933258bef9736cbf9ff035df78a3b173ec464c76a59c8cc187f2"
+        "git_blob_sha1": "fc67b52b510555b4b8fd017e39ae21b0c00a0ebc",
+        "sha256": "2d8604999cb3b37b514c52ab98d0f296a7f7b5c7c50018d60bc2cb7b957613e2"
       },
       "member": "CivIdle_Status_Windows.zip.part02.bin",
-      "sha256": "e28ea17eaa23532c3849501e167ad5df9561fda54f7cab06fdc0a6c46f49fd75"
+      "sha256": "9860297b92b180ba318222204ba8ddc2f8d1ea84c28c001e183466db8bdcff83"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "448c7238020646f45bf22c45e0a855339e622bbc",
-        "sha256": "14015dc83b47b501ba870f626b41243c41e666fba9fe38110f5e60ee7bc3f5f7"
+        "git_blob_sha1": "28c2d6b519326e40932cdad18798efdf484605e5",
+        "sha256": "940a520841ac76dc9caee8bba8b3c54cf568e77817707a62496cc30a79b17ddb"
       },
       "member": "CivIdle_Status_Windows.zip.part03.bin",
-      "sha256": "9276f3900692cc20947c6497c4f357a24d3fc437ba950e3510efb5f8b27e2ea7"
+      "sha256": "f72124fac0bcdcdae6b604377799d891875f4f8ad60c5764e8e0ab242043b542"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "c1e17d7f1a058ee81b86343530ce0d3992339166",
-        "sha256": "6d630c51878e2301524f9c2180a221a1f707dad00d972e790142e3a31dd3b410"
+        "git_blob_sha1": "546ceed5d0c7b481b028aa1cabc69529db74563c",
+        "sha256": "7422c1d51e27607cb7db459e197732faa811b12dc4d76817c17a52b21a4415ef"
       },
       "member": "CivIdle_Status_Windows.zip.part04.bin",
-      "sha256": "70cba71615ea3cab1b9d46a1490d58e0e9fd6bb1187df222575aaa3e1c828f13"
+      "sha256": "b970c976d08f5251264ca7ca6241456401dab146476f1a158621eb7c0be77a21"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "35dceb4436fa719cbc121ee2f38d6ce5c74ecef6",
-        "sha256": "f6f03f90aefa0a13684c5bd88790ddc5fd0742f2a12de116a96ec75531581eb6"
+        "git_blob_sha1": "d7499be672a06ed4004b221edd7c325362f870c5",
+        "sha256": "8cc2f3881b5e5290e1af7e7a9902c7731435a22d86c741012bc46028e8cb4748"
       },
       "member": "CivIdle_Status_Windows.zip.part05.bin",
-      "sha256": "39f5b4d8e65c9435c731c729d2bc3d1ffd30addf5da2a7bdf900b84d0122d1b5"
+      "sha256": "304b778922059f03cd4687c5751d53092d02db3fa5a4d5a987b536fcad42b1ae"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "d5e4837b93324770305b8e0f77705d2d3cb624dc",
-        "sha256": "9632fa82b930463029e619459a3ca084f0847be21980568c5a436f1fbe642163"
+        "git_blob_sha1": "6a7a30bed0de6def5bdf22b15819d71c1d110cea",
+        "sha256": "12531f345d87cac4d100a5ed957eea4715f3673b2505080c67ce72ff0d41eb5f"
       },
       "member": "CivIdle_Status_Windows.zip.part06.bin",
-      "sha256": "98da18d7f746f20ab766d60af54be935dc8a3762b434c9e50c022542aead3751"
+      "sha256": "7f8ad62c9b80ed5dfa283e9916e9c6f791508a2ac6d1ae453c7dd60c0d39594c"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "f964ff5c9928873f1ab816f2863250bc1dd6623e",
-        "sha256": "8f7a3a272484d2d36d82eed3869eb2e37f8887dcfb7b501a59b71aad2a24d9bc"
+        "git_blob_sha1": "4cb78fcd15f956359dd50504aea89b8fd64f596a",
+        "sha256": "f9984764cdcd223799e0225701f79ff27d6dcc060fa71a5f37d3f1eefcbae925"
       },
       "member": "CivIdle_Status_Windows.zip.part07.bin",
-      "sha256": "ef7092d4530dc3c6ebb1f7f41eb8c49471ad0dd5a41414c7eb531fd8f26a6eca"
+      "sha256": "a481928b4af3c25dc9e4c1dbc0bb71c63e9fa29f6032569f55c819c7bf0358bc"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "65a9883ede069a63eebb1e3314fe1a4e2e545eea",
-        "sha256": "44454476f8a6160f72fac12b5336dab3aa17aa03db4776234fa436519bceda9f"
+        "git_blob_sha1": "9b7eafbbc2046a1b88f7ef32e1f32b2b25897f04",
+        "sha256": "2ebd661b6a705d7be041ae8d57fcca9a3ead0d1b7d760bf09525caeba80e7e8f"
       },
       "member": "CivIdle_Status_Windows.zip.part08.bin",
-      "sha256": "2d1b1b48393576b79f330aa1846986e6cf14338600d4745aaa9bb3fbe33e9a09"
+      "sha256": "7c7613a7e0cf745ade4361ac1d9c31e56eb70134b0b4c4ac0fb4055f83002b2a"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "6eb4327e83c96fe7e30f39312ff98d3cad55c87b",
-        "sha256": "86f8b70d9373e6148cc155b202f5dced730a20a15b897a6a046caccddd4fadd7"
+        "git_blob_sha1": "82b019f2f9f4c2747655e6801c39f046a02958a9",
+        "sha256": "1ed9579fb4557d62fdb9218d7d018aba049d9f06872cdf630e96b08596c95443"
       },
       "member": "CivIdle_Status_Windows.zip.part09.bin",
-      "sha256": "eb70e8659a4fc260e4a2c4f5eeff4ed4569feca03cce9be90f6fdb316a0242a3"
+      "sha256": "839e758a31f6be50af1627250a3ade9cb1e3211362b93087260a604445178a59"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "152e89ae1297dc0b2fedf7c79c6bef332db5c0f1",
-        "sha256": "15d7a2738eea329838b4a3b12f6943b5807c01d2212197b611592de713be8b6e"
+        "git_blob_sha1": "5f0f96c28762dda8a5a6d0c68f7b7e41e3bf36d9",
+        "sha256": "6b48978dc8b408e2779e1ae4f1b5a7d640624be0bab576d4026106a5196cc310"
       },
       "member": "CivIdle_Status_Windows.zip.part10.bin",
-      "sha256": "eef2cc574da3b3fe5afad050a37a3ddffbad35adfe938c7564691430ff56ceac"
+      "sha256": "4aa1c241a6fee884b801b13fdb6c416aab78ff561c79bd978dc53e9ff8b8acc4"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "af24eb67881016fdc4fe66a880b14abe83e36641",
-        "sha256": "be8c1cacc8eec19b40094396ede712a95687d26ca3ead2942c8591dc9f93c71f"
+        "git_blob_sha1": "e6dd3f47c468d9568c5a07f8e962ee83c305d9a6",
+        "sha256": "1048a4b6760551ffaa51974fd9f800e1c86429befc371bd566aecca96b8237dd"
       },
       "member": "CivIdle_Status_Windows.zip.part11.bin",
-      "sha256": "04587224f471fb297f301810ba456390e8bb8e54f85e784f33d9b60d6458ae4c"
+      "sha256": "e1cf5357e7dccfb92bfdec631f3466c9a52aa04e5bc92cf8775a5efe9976650e"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "91d9b4f5791bab3a599faaf4cddf2048ff2fae55",
-        "sha256": "52be0065bd98c7a52e1d7bf7c873a4e304e6e83bbf26855d1107c4ebedd1f454"
+        "git_blob_sha1": "e1a77eb733435fcc011e7d60da556fa0bc94d0dc",
+        "sha256": "a808ad736486dffd7307bfc09a04d803b157b86b56ef379f2be221f4c9e45538"
       },
       "member": "CivIdle_Status_Windows.zip.part12.bin",
-      "sha256": "345f1e8327761fa27ad68f141b47a4bf594192686079509df6dda42861d369eb"
+      "sha256": "70e09f49a12bbc3caf71dd7539359bd3acb6a578913b14f0be76a1bc02b6c689"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "371bdb04880ba528a755229d131f45fe4a912230",
-        "sha256": "0d9b2dfc98d8aa89c7c24a1c0092e16a7b3e627a7164572052e4ca2234f37b30"
+        "git_blob_sha1": "d754bdde89cdb0cccc9d00745531877e6c0ceaee",
+        "sha256": "d124ed38b56e36e45fcd8f49ec0016b233736573c003f6b6b083ffa1e8dd0453"
       },
       "member": "CivIdle_Status_Windows.zip.part13.bin",
-      "sha256": "116bac80372daedc30ba65477800a466e98404bcf68d1e0ff8a1cfbddd2aba05"
+      "sha256": "57630b63120ab341ac6101cd84dfa6fc80f2f6c77b866e2c07eb4db4650bc7d9"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "d5f9e32490db9951b45f97c17b221a326be3df79",
-        "sha256": "2287af322158f6681f3839bfc74f3908aa35d8b5ccc7013ce023fdce18deae2c"
+        "git_blob_sha1": "19f9877a83421922f7bbf48508982a7dc920f5b5",
+        "sha256": "d4eb34c90eccee6913bd18b94233afd55c48bb55d0c106bf5ab4a115315baa32"
       },
       "member": "CivIdle_Status_Windows.zip.part14.bin",
-      "sha256": "9a361a087c6bfdfec3a6700834c82c45f0e3dd0f4e0fdc68eacb95c2e366a830"
+      "sha256": "06b58ad300f4f7797534de16d9f80434d30ebc05211625e3361309b3f756faa9"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "c1873549bcd0737955b8a3dbce1750bb624ba799",
-        "sha256": "6f894a0876bc115c09703ed10b95f69d00b593fc0dca969c013021968f0c35e5"
+        "git_blob_sha1": "0de3ba01579a1d94c62162eb17e01057eae71fd8",
+        "sha256": "c18b3bfeec5f5bb77e387d3a0cc7268dbd9aa9b65609aaa39de43b05a41160f2"
       },
       "member": "CivIdle_Status_Windows.zip.part15.bin",
-      "sha256": "77656c5c1d7f01adf468869fd3fb89d17ad25bfc06a373bdb5263def8eac1a65"
+      "sha256": "bbdc70980f0ffb2f52c9bb41cf7c553bdc57b413b6ccc056932a198d15e4c645"
     },
     {
       "bytes": 884736,
       "container": {
         "bytes": 888787,
-        "git_blob_sha1": "b3edabbba9fc0ff271d2ebf75eda8063464bb56e",
-        "sha256": "49a63a80cd95264814f2549ba51402fa1f3706edb872320dce5678a2aa8e5871"
+        "git_blob_sha1": "f96f6a8989957b3643ecf512bbea55b452979f9b",
+        "sha256": "2c67f1a06f33b8862ecfa51cdbba95e235e1a931a0c84dd0288dedcfde24a21a"
       },
       "member": "CivIdle_Status_Windows.zip.part16.bin",
-      "sha256": "ff8344f68ad4434e6ea6a16c0e47ec266594d7deabac6d01c3db888202611a69"
+      "sha256": "1735686d9e7d8bb2e2a39512859a21c47b0a19712e61b8061e6b48e96e54f8f3"
     },
     {
-      "bytes": 484297,
+      "bytes": 486854,
       "container": {
-        "bytes": 488348,
-        "git_blob_sha1": "41591badc67b56eb967c92b95d2ca7476e576a78",
-        "sha256": "0767f227df20f4231909cab54d0dfd5beb36950ac8025f9e5282cc92005194b8"
+        "bytes": 490905,
+        "git_blob_sha1": "dcac6e8c86e49ed72f8dc3b636f653b33ea2d14c",
+        "sha256": "44329650aa82400bb641b9fae46ba2d37c9ec1cd20b5b2af9ba8117b4d9d8a16"
       },
       "member": "CivIdle_Status_Windows.zip.part17.bin",
-      "sha256": "3aa5db98e21fe7f1794810c239af05f839128e6288732fdbe833c7cf825822ad"
+      "sha256": "cfa718e4d51d7202f6e7dc203f8bf6441e43a99d78134fbd505536c1c1a2d761"
     }
   ],
-  "version": "2026.09.24.2"
+  "version": "2026.09.24.3"
 }
