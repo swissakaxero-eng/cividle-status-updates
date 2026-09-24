@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CivIdle Guide & Kompendium</title>
+<style>
+:root{color-scheme:dark}body{font-family:Segoe UI,Arial,sans-serif;background:#1f2428;color:#e7e8e9;max-width:1120px;margin:auto;padding:28px;line-height:1.58}
+h1,h2,h3{color:#d5d9a6}a{color:#b9d9ff}.box{background:#2a3036;border:1px solid #59636c;border-radius:8px;padding:16px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:14px}.card{background:#252b30;border:1px solid #59636c;padding:12px;border-radius:7px}
+img{max-width:100%;height:auto;border:1px solid #59636c;border-radius:5px;background:#111}.small{color:#aeb5bc;font-size:.93em}
+table{border-collapse:collapse;width:100%;margin:12px 0}th,td{border:1px solid #59636c;padding:8px;text-align:left;vertical-align:top}th{background:#30383f;color:#d5d9a6}
+code{background:#15191c;padding:2px 5px;border-radius:4px}.tag{display:inline-block;padding:2px 7px;border:1px solid #68766b;border-radius:12px;margin:2px;color:#d5d9a6}
+</style></head><body>
+<h1>CivIdle – Guide & Kompendium</h1>
+<p class="small">Stand 24.09.2026 · Bebilderter Projektguide. Historische Originaldokumente sind separat beigefügt; konkrete Zahlenwerte daraus können zu älteren CivIdle-Builds gehören.</p>
+<div class="box"><b>So benutzt du das Paket:</b> Diese HTML-Datei ist der schnelle, bebilderte Einstieg. Für ältere Tabellen und Detailmaterial findest du zusätzlich das historische Build-968-PDF und zwei Original-ZIPs im Ordner <code>originale</code>. Die Markdown-Dateien unter <code>kompendium</code> enthalten den dokumentierten Projektstand.</div>
+
+<h2>1. Der vollständige CivIdle-Zyklus im Projekt</h2>
+<p>Das Projekt betrachtet einen Lauf als vollständige Kette: Spielzustand erkennen, Aufbau und Ressourcenversorgung herstellen, Forschung freischalten, eine passende Große Persönlichkeit auswählen, Wiedergeburt ausführen und die neue Karte zuverlässig bestätigen. Für Vergleiche zählt die vollständige Zykluszeit <code>full_cycle_sec</code>, nicht nur ein einzelner Teilabschnitt.</p>
+<table><tr><th>Abschnitt</th><th>Praxis</th><th>Prüfpunkt</th></tr>
+<tr><td>Aufbau</td><td>Frühe Gebäude und Ressourcenversorgung</td><td>Gebäudezustand frisch erkennen; Engpässe nicht mit einem erfolgreichen Klick verwechseln.</td></tr>
+<tr><td>Forschung</td><td>Unter anderem Mauerwerk und Bronzeverarbeitung als frühe Wegpunkte</td><td>Freischaltung wirklich bestätigen.</td></tr>
+<tr><td>Große Persönlichkeit</td><td>Aktuelle Auswahl lesen und erst dann bestätigen</td><td>Name/Bild/Position aktuell prüfen.</td></tr>
+<tr><td>Wiedergeburt</td><td>Ansicht → Bestätigung → neue Karte</td><td>Neue Karte muss nach dem Wechsel sichtbar verifiziert sein.</td></tr></table>
+
+<h2>2. Gebäude – visuelle Referenzen</h2>
+<div class="grid">
+<div class="card"><h3>Holzfäller</h3><img src="bilder/gebaeude_holzfaeller.png"><p>Frühe Holzversorgung und wichtige Gebäudereferenz im Projekt.</p></div>
+<div class="card"><h3>Steinbruch</h3><img src="bilder/gebaeude_steinbruch.png"><p>Referenz für den Stein-/Baustoffpfad.</p></div>
+<div class="card"><h3>Hütte</h3><img src="bilder/gebaeude_huette.png"><p>Frühe Siedlungs-/Bevölkerungsreferenz.</p></div>
+<div class="card"><h3>Aquädukt</h3><img src="bilder/gebaeude_aquaedukt.png"><p>Weiterführende Gebäudereferenz aus dem gespeicherten Bildbestand.</p></div>
+<div class="card"><h3>Statistikamt</h3><img src="bilder/gebaeude_statistikamt.png"><p>Beispiel einer späteren Gebäudereferenz.</p></div>
+</div>
+
+<h2>3. Forschung – erkennbare Wegpunkte</h2>
+<div class="grid">
+<div class="card"><h3>Mauerwerk</h3><img src="bilder/forschung_mauerwerk.png"><p>Früher Wegpunkt in den getesteten Bronze-Abläufen.</p></div>
+<div class="card"><h3>Bronzeverarbeitung</h3><img src="bilder/forschung_bronzeverarbeitung.png"><p>Zentraler Zielpunkt der frühen Rebirth-Testreihen.</p></div>
+<div class="card"><h3>Architektur</h3><img src="bilder/forschung_architektur.png"><p>Beispiel für einen späteren Forschungseintrag.</p></div>
+<div class="card"><h3>Ingenieurwesen</h3><img src="bilder/forschung_ingenieurwesen.png"><p>Weitere Forschungsreferenz aus dem Projektbestand.</p></div>
+</div>
+<p class="small">Unbestätigte Kosten oder Boni werden nicht erfunden. Zahlen gelten erst als verbindlich, wenn sie an eine überprüfte Spielversion oder Originalquelle gebunden sind.</p>
+
+<h2>4. Große Persönlichkeiten – Galerie</h2>
+<p>Die Auswahl soll nicht nur über eine feste Bildschirmposition erfolgen. Die gespeicherten Bilder zeigen echte Projekt-Referenzen, mit denen Namen und aktuelle Auswahlzustände geprüft werden können.</p>
+<div class="grid">
+<div class="card"><h3>Sokrates</h3><img src="bilder/gp_sokrates.png"></div>
+<div class="card"><h3>Plato</h3><img src="bilder/gp_plato.png"></div>
+<div class="card"><h3>Ramses II.</h3><img src="bilder/gp_ramses_ii.png"></div>
+<div class="card"><h3>King David</h3><img src="bilder/gp_king_david.png"></div>
+<div class="card"><h3>Laozi</h3><img src="bilder/gp_laozi.png"></div>
+<div class="card"><h3>Hanno the Navigator</h3><img src="bilder/gp_hanno.png"></div>
+</div>
+
+<h2>5. Wiedergeburt</h2>
+<div class="grid">
+<div class="card"><h3>Rebirth-Ansicht</h3><img src="bilder/rebirth_ansicht.png"><p>Referenz für die geöffnete Wiedergeburt-Ansicht.</p></div>
+<div class="card"><h3>Bestätigung</h3><img src="bilder/rebirth_bestaetigen.png"><p>Referenz für den Bestätigungsschritt.</p></div>
+<div class="card"><h3>Diagnosebeispiel</h3><img src="bilder/rebirth_beispiel.jpg"><p>Gespeicherter Diagnosezustand aus einem realen Projektlauf.</p></div>
+</div>
+<div class="box"><b>Projektregel:</b> Ein Bildtreffer oder Klick allein gilt nicht als abgeschlossener Rebirth. Die nachfolgende Ansicht bzw. neue Karte muss ebenfalls frisch bestätigt werden. Ein manueller Stop bleibt bindend.</div>
+
+<h2>6. Messen und verbessern</h2>
+<p>Neue Strategien werden zuerst mit wenigen Screening-Läufen geprüft. Nur stabile Kandidaten werden länger getestet. Verglichen wird der Median der vollständigen Zykluszeit; ein einzelner sehr schneller Lauf reicht nicht als Stabilitätsnachweis.</p>
+<p><span class="tag">full_cycle_sec</span><span class="tag">3-Run Screening</span><span class="tag">20-Run Stabilität</span><span class="tag">Median</span></p>
+
+<h2>7. Was das Kompendium bereits enthält</h2>
+<p>Mitgeliefert sind Status-App-Anleitung, Bot-Wissensstand, dokumentierter Rebirth-/Teststand, historische Kompendien und frühere Guide-Dateien. Noch vollständig gegen den jeweils aktuellen Spielbuild auszubauen sind insbesondere Baukosten, Bauzeiten, Produktions- und Verbrauchswerte, Lager/Transport, vollständige Forschungsdaten und Leveltabellen bis Level 100.</p>
+
+<h2>8. Dateien im Download</h2>
+<ul>
+<li><code>kompendium/CIVIDLE_KOMPENDIUM_STAND.md</code> – Umfang, Quellenlage und offene Kapitel.</li>
+<li><code>kompendium/BOT_WISSENSSTAND.md</code> – dokumentierter Bot-/Rebirth-Stand.</li>
+<li><code>kompendium/APP_ANLEITUNG.md</code> – Status-EXE und Bedienung.</li>
+<li><code>originale/CivIdle_Ultimatives_Kompendium_Build968_2026-09-06.pdf</code> – historisches Original-PDF.</li>
+<li>Zwei historische Original-ZIPs mit früheren Kompendiums-/Guide-Inhalten.</li>
+<li><code>bilder/</code> – alle hier verwendeten CivIdle-Referenzbilder.</li>
+</ul>
+<div class="box"><b>Empfehlung:</b> Für schnelles Nachschlagen diese HTML-Datei verwenden. Für ältere Tabellen/Detailbestand das PDF und die Original-ZIPs öffnen. Spätere Guide-Versionen kann die Status-EXE über denselben öffentlichen, tokenfreien Kanal aktualisieren.</div>
+</body></html>

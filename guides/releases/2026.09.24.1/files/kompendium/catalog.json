@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "title": "CivIdle – Anleitungen und Kompendien",
+  "updated_utc": "2026-09-23T19:16:31.150430+00:00",
+  "entries": [
+    {
+      "id": "app_anleitung",
+      "title": "Status-App bedienen",
+      "relative_path": "APP_ANLEITUNG.md",
+      "description": "Bedienung von V3: PC-Start, Server-Agent/Chat-Arbeit getrennt, Aktualität, Bibliothek, Chatwechsel und App-Update; neue Anbindung und native V3-Abnahme ausstehend.",
+      "kind": "app_guide",
+      "coverage": "Bedienung der Status-App; kein Spielhandbuch.",
+      "bytes": 7904,
+      "sha256": "db4eb18a27fdd3cb2dcb2735307186b523597b4232b3ce1365123b5fe9629995"
+    },
+    {
+      "id": "kompendium_stand",
+      "title": "Kompendium: Bestand und offene Kapitel",
+      "relative_path": "CIVIDLE_KOMPENDIUM_STAND.md",
+      "description": "Vorhandene historische Dokumente und noch zu prüfende Spielthemen bis Level 100.",
+      "kind": "project_status",
+      "coverage": "Bestandsübersicht und offener Arbeitsumfang; keine neu erfundenen Spieltabellen.",
+      "bytes": 4969,
+      "sha256": "be79399ddb4d7c74eb34d2728faf19492f07b4cb1b09fc0ffb62eaebb9a45dff"
+    },
+    {
+      "id": "bot_wissensstand",
+      "title": "Bot: dokumentierter Wissensstand",
+      "relative_path": "BOT_WISSENSSTAND.md",
+      "description": "Rebirth-Zeitlimit, nachgewiesene Offline-Prüfung und weiterhin offene Integration.",
+      "kind": "project_status",
+      "coverage": "Gespeicherter Botkandidat vom 23.09.2026; kein aktueller Laufstatus.",
+      "bytes": 4273,
+      "sha256": "aa0d2a280645b70f06cd20853077632351de5d743e376526702fe44bf85ed579"
+    },
+    {
+      "id": "kompendium_build968_pdf",
+      "title": "Kompendium Build 968 – Original-PDF",
+      "relative_path": "originals/CivIdle_Ultimatives_Kompendium_Build968_2026-09-06.pdf",
+      "description": "Unverändertes historisches PDF mit Build-968-Bezug im Dateinamen.",
+      "kind": "historical_pdf",
+      "coverage": "Originaldatei; hier nicht inhaltlich für den aktuellen Spielbuild erneut geprüft.",
+      "bytes": 201518,
+      "sha256": "1082f1dbab8bc05984efce701a5f52ef176b5779853b5a8e12aec258cf7c809b"
+    },
+    {
+      "id": "kompendium_20260905_zip",
+      "title": "Kompendium vom 05.09.2026 – Original-ZIP",
+      "relative_path": "originals/CivIdle_Kompendium_2026-09-05.zip",
+      "description": "Historische Forschungs-, GP- und Gebäudedateien sowie Guide; ZIP unverändert.",
+      "kind": "historical_zip",
+      "coverage": "Dateiverzeichnis geprüft, darunter Upgrade-Beispiele bis Level 50; Aktualität und Vollständigkeit offen.",
+      "bytes": 19530,
+      "sha256": "0ca9c57297ef9dc77484fd51aa55d26d9ba5ea5df08e3443d9527d595fa432ce"
+    },
+    {
+      "id": "guide_20260921_zip",
+      "title": "Erkenntnisse und Guide vom 21.09.2026 – Original-ZIP",
+      "relative_path": "originals/CivIdle_Erkenntnisse_und_Guide_2026-09-21.zip",
+      "description": "Historische Einrichtung, Werkzeugvergleich, Headless/Bot, Messregeln und Roadmap.",
+      "kind": "historical_zip",
+      "coverage": "Dateiverzeichnis geprüft; damalige Projekttexte, kein aktueller Betriebsnachweis.",
+      "bytes": 20754,
+      "sha256": "913f8ce933bceb776ab87b35b11b9f899b26736ce3851fe32738d734d6a18d11"
+    },
+    {
+      "id": "setup_750_chf",
+      "title": "750-CHF-Setup – archiviertes Konzept",
+      "relative_path": "historisch/CIVIDLE_SETUP_750_CHF.md",
+      "description": "Vorhandener Infrastrukturvergleich mit Recherche vom 22./23.09.2026, unverändert übernommen.",
+      "kind": "historical_concept",
+      "coverage": "Planung, keine Bestellung. Preise und Verfügbarkeit sind an den damaligen Recherchezeitpunkt gebunden.",
+      "bytes": 12229,
+      "sha256": "a188a890f973d94830d0cfed6b5bb99b43d18243481e6989f049d3a52c8db0f0"
+    }
+  ],
+  "provenance": {
+    "scope": "Sieben mitgelieferte, reguläre Original-/Textdateien. Keine automatische Auflistung oder Übernahme einer gesamten externen Bibliothek.",
+    "historical_inventory": {
+      "path": "Originalübergabe/reports/expanded_scope/desktop_status/LOCAL_DOCUMENTS.json",
+      "bytes": 1823,
+      "sha256": "586a69898ab33bda42ba83cc18a3cf73b8c71b7986e13be2e0b059cc337ef927"
+    },
+    "historical_originals": [
+      {
+        "name": "CivIdle_Ultimatives_Kompendium_Build968_2026-09-06.pdf",
+        "bytes": 201518,
+        "sha256": "1082f1dbab8bc05984efce701a5f52ef176b5779853b5a8e12aec258cf7c809b",
+        "created_at": "2026-09-05T22:04:11.052343Z",
+        "modified_at": "2026-09-05T22:04:11.052343Z",
+        "file_included": "originals/CivIdle_Ultimatives_Kompendium_Build968_2026-09-06.pdf",
+        "identity_verified": true,
+        "content_revalidated_for_current_game_build": false
+      },
+      {
+        "name": "CivIdle_Kompendium_2026-09-05.zip",
+        "bytes": 19530,
+        "sha256": "0ca9c57297ef9dc77484fd51aa55d26d9ba5ea5df08e3443d9527d595fa432ce",
+        "created_at": "2026-09-05T15:27:22.907584Z",
+        "modified_at": "2026-09-05T15:27:22.907584Z",
+        "file_included": "originals/CivIdle_Kompendium_2026-09-05.zip",
+        "identity_verified": true,
+        "content_revalidated_for_current_game_build": false,
+        "archive_integrity_checked": true,
+        "listed_files": [
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/01_Forschungen.csv",
+            "bytes": 9768
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/02_Great_People.csv",
+            "bytes": 5048
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/03_GP_und_Age_Wisdom.md",
+            "bytes": 1144
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/04_EV_Extra_GP_Schwellen.csv",
+            "bytes": 880
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/05_Upgrade_Skalierung_generisch.csv",
+            "bytes": 4963
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/06_Gebaeude_Basiswerte.csv",
+            "bytes": 1451
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/07_Gebaeude_Upgrade_Beispiele_bis_L50.csv",
+            "bytes": 9633
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/08_Wonders.csv",
+            "bytes": 4639
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/09_Komplettguide.md",
+            "bytes": 7978
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/10_Quellen.txt",
+            "bytes": 1068
+          },
+          {
+            "path": "CivIdle_Kompendium_2026-09-05/README.txt",
+            "bytes": 340
+          }
+        ]
+      },
+      {
+        "name": "CivIdle_Erkenntnisse_und_Guide_2026-09-21.zip",
+        "bytes": 20754,
+        "sha256": "913f8ce933bceb776ab87b35b11b9f899b26736ce3851fe32738d734d6a18d11",
+        "created_at": "2026-09-21T22:41:12.818842Z",
+        "modified_at": "2026-09-21T22:41:12.818842Z",
+        "file_included": "originals/CivIdle_Erkenntnisse_und_Guide_2026-09-21.zip",
+        "identity_verified": true,
+        "content_revalidated_for_current_game_build": false,
+        "archive_integrity_checked": true,
+        "listed_files": [
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/03_HEADLESS_UND_ECHTER_BOT.md",
+            "bytes": 3608
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/06_AUFTRAGSVORLAGEN.md",
+            "bytes": 4008
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/05_SICHERHEIT_UND_TRENNUNG.md",
+            "bytes": 2718
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/02_KURZER_EINRICHTUNGSGUIDE.md",
+            "bytes": 4334
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/plan.json",
+            "bytes": 1956
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/08_OFFIZIELLE_LINKS.md",
+            "bytes": 2820
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/04_ROADMAP_AUTOMATISCHE_OPTIMIERUNG.md",
+            "bytes": 4509
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/00_START_HIER.md",
+            "bytes": 3820
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/07_MESSEN_STATT_RATEN.md",
+            "bytes": 2971
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/01_WERKZEUGVERGLEICH.md",
+            "bytes": 3279
+          },
+          {
+            "path": "CivIdle_Erkenntnisse_2026-09-21/CIVIDLE_AGENT_BRIEFING.md",
+            "bytes": 2291
+          }
+        ]
+      }
+    ],
+    "source_documents": [
+      {
+        "path": "bot_delivery/CivIdle_Starten.bat",
+        "bytes": 80,
+        "sha256": "c4fe8f3abebf1db20c5d0b40d99d9262cd6bba69492b846f5bc4528f488df8c8",
+        "scope": "Vorhandene Startdatei: EXE mit lokalem Projektstand aufrufen"
+      },
+      {
+        "path": "bot_delivery/START_HIER.txt",
+        "bytes": 3392,
+        "sha256": "3be54bb9d6293e978d26c97695f461271644ed4172d8c12050667579470295da",
+        "scope": "Frühere ausgelieferte Start- und Übergabeanleitung"
+      },
+      {
+        "path": "bot_delivery/FORTSETZUNG/OFFENE_PUNKTE_UND_FORTSCHRITT.json",
+        "bytes": 39399,
+        "sha256": "e3c93e7f66cbc0cd28566c67e388fec1e8c699487bedf4929bf61e5fb762703a",
+        "scope": "Bisherige Aufgabenliste, insbesondere A05 und offene Integration"
+      },
+      {
+        "path": "bot_delivery/BOT_KANDIDAT/README.md",
+        "bytes": 3524,
+        "sha256": "1e26fc332f4821fa4867a944d8a87cb6ed754fdfb2f9690ea7f6c6cd73d4df28",
+        "scope": "Gespeicherter Rebirth-Kandidat vom 23.09.2026"
+      },
+      {
+        "path": "bot_delivery/BOT_KANDIDAT/CONTRACT.md",
+        "bytes": 7797,
+        "sha256": "37f59ddb84a47f499bedfc6ba3f22dcaf3638f099ad037617a35fc7add8373ce",
+        "scope": "Kooperativer Deadline-Vertrag"
+      },
+      {
+        "path": "bot_delivery/BOT_KANDIDAT/reports/TEST_RESULTS.json",
+        "bytes": 20112,
+        "sha256": "534142da2d3ecf0940e56c1aa37b8d9f26b7cbe1ba94b0b7db878b737a990b42",
+        "scope": "54/54 Offline-Kandidatentests und 154 parametrisierte Teilfälle"
+      },
+      {
+        "path": "bot_delivery/BOT_KANDIDAT/reports/INDEPENDENT_REVIEW.json",
+        "bytes": 5411,
+        "sha256": "93e2e7f67a2d6d914425e3b389c4e31cfee94e3affcbb852ffd307e38a96eaa8",
+        "scope": "Unabhängiger Review des damaligen Botkandidaten"
+      },
+      {
+        "path": "bot_delivery/CIVIDLE_SETUP_750_CHF.md",
+        "bytes": 12229,
+        "sha256": "a188a890f973d94830d0cfed6b5bb99b43d18243481e6989f049d3a52c8db0f0",
+        "scope": "Unverändert archiviertes, datiertes Infrastrukturkonzept"
+      }
+    ],
+    "current_app_guide": "Vorbereitete Anleitung für Version2026.09.23.3. Server-Steuerworker und Chat-Arbeit werden getrennt erläutert; neue Serveranbindung und native V3-Abnahme sind zu diesem Dokumentstand noch nicht belegt. Historische Originale und Rebirth-Kandidatenfakten unverändert.",
+    "requested_game_scope": "Gebäude, Produktion, Transport, Lager, Forschung, GP, Zeitalter, Karten und Praxis. Leveltabellen bis Level 100 ausreichend. Aktuelle inhaltliche Vollständigkeit bleibt offen.",
+    "gameplay_data_generated": false,
+    "pdf_content_revalidated": false,
+    "historical_zip_contents_revalidated": false,
+    "historical_zip_file_lists_checked": true
+  }
+}

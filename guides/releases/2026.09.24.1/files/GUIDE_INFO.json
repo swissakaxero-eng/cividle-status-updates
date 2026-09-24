@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "guide_id": "cividle-guide-kompendium",
+  "version": "2026.09.24.1",
+  "title": "CivIdle Guide & Kompendium",
+  "created": "2026-09-24",
+  "start_file": "CivIdle_Guide.html",
+  "images": 18,
+  "contents": [
+    "bebilderter HTML-Guide",
+    "aktueller dokumentierter Kompendiumsstand",
+    "Status-App-Anleitung",
+    "Bot-Wissensstand",
+    "historisches Build-968-PDF",
+    "zwei historische Original-ZIPs"
+  ]
+}
