@@ -2,7 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.10.0",
+  "latest_version": "0.10.1",
   "bootstrap_min_version": "0.10.0",
-  "releases": []
+  "releases": [
+    {
+      "version": "0.10.1",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.1.py",
+      "payload_sha256": "2953719bc1e8372603603f61d665ffae402f7b07506141ea619b08a42cceafab",
+      "notes": "Bootstrap-Selbsttest: keine Spiel-/Trainerlogik geaendert; prueft den permanenten Fernupdate-Pfad."
+    }
+  ]
 }
