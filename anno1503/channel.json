@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.10.11",
+  "latest_version": "0.10.12",
   "bootstrap_min_version": "0.10.0",
   "releases": [
     {
@@ -64,6 +64,12 @@
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.11.py",
       "payload_sha256": "3a1679daf8f27604dab6469517821d3af3194caeaff34acbecca09522b97ba38",
       "notes": "Same-session Cache: bei gleicher Anno-PID werden bestaetigte Speedadresse, bis zu 32 Zaehler und kleine Geldkandidatensaetze aus dem letzten Run live neu geprueft. Dadurch entfallen die grossen Vollscans normalerweise. Bei neuer PID automatischer Fallback auf Vollsuche."
+    },
+    {
+      "version": "0.10.12",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.12.py",
+      "payload_sha256": "fe8cf5fba1cb37719e6d2baea15f458db0e83321f43bcc97d3d765cfe49e019e",
+      "notes": "Echter 16x-Kurztest: kein Vollscan und kein Geldtest. Same-Session-Speed wird live per F5->1.0 bestaetigt, 16x 5 Sekunden gehalten und danach zwingend auf 1x zurueckgestellt/validiert."
     }
   ]
 }
