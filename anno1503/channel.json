@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.10.2",
+  "latest_version": "0.10.5",
   "bootstrap_min_version": "0.10.0",
   "releases": [
     {
@@ -16,6 +16,24 @@
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.2.py",
       "payload_sha256": "598054b582b563af9af917fbb9365f21623d5ca14cc53a5731df8587011a70d9",
       "notes": "AutoShare-Summary: LATEST_RESULT_SUMMARY.json mit ZIP-SHA256, Restore-/Reset-Status und kompakten Speed-Messwerten. Keine Gameplay-/Speedlogik geaendert."
+    },
+    {
+      "version": "0.10.3",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.3.py",
+      "payload_sha256": "9d3805f487e1a72949ac1af657e453915acd7d0695d54eeec6cebfbd865853cf",
+      "notes": "Zweistufige Speed-Messung: Breitscan, gezielte 1x/2x/4x-Wiederholungsbestaetigung, danach gezielte 6x-Pruefung."
+    },
+    {
+      "version": "0.10.4",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.4.py",
+      "payload_sha256": "f2308784ddfdc59f91030a85512617449d5f4a38a994b8e8979969f24b6c3c1b",
+      "notes": "UI-Update: Update pruefen + Status dauerhaft oben sichtbar; Mindestfensterhoehe reduziert. Keine Spiel-/Speed-/Waren-/Geldlogik geaendert."
+    },
+    {
+      "version": "0.10.5",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.5.py",
+      "payload_sha256": "54ab33892043f2bc130eea55f9c748f24df8f1f3b79bdf7025565b9fe5159c87",
+      "notes": "Speed-Diagnose robuster: bis zu 24 evidenzsortierte Kandidaten, laengere gezielte Messfenster und erhaltene Broad/Target-Rohdaten. Kalibrierungs-Grenzwerte sowie Waren-/Geldlogik unveraendert."
     }
   ]
 }
