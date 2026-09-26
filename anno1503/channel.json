@@ -62,7 +62,7 @@
     {
       "version": "0.10.11",
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.11.py",
-      "payload_sha256": "edd69f834c234b3d8c232bd364b947666a3b20a7ec28c9cb217116197f7cf42f",
+      "payload_sha256": "3a1679daf8f27604dab6469517821d3af3194caeaff34acbecca09522b97ba38",
       "notes": "Same-session Cache: bei gleicher Anno-PID werden bestaetigte Speedadresse, bis zu 32 Zaehler und kleine Geldkandidatensaetze aus dem letzten Run live neu geprueft. Dadurch entfallen die grossen Vollscans normalerweise. Bei neuer PID automatischer Fallback auf Vollsuche."
     }
   ]
