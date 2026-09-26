@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.10.7",
+  "latest_version": "0.10.8",
   "bootstrap_min_version": "0.10.0",
   "releases": [
     {
@@ -46,6 +46,12 @@
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.7.py",
       "payload_sha256": "142cfc8a62fbaf1d0aa4f1c254324a5e62d39981677bc79a565250998b299822",
       "notes": "Recovery-sichere Entwicklungsbruecke fuer Mehrfachtest; akzeptiert teilweisen 0.10.6/0.10.7-Stand und exportiert auch updater.py-Kontext. Keine Gameplaylogik geaendert."
+    },
+    {
+      "version": "0.10.8",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.8.py",
+      "payload_sha256": "cec8f83d23540c5ae22562222066e8654b035c9416b5e3b6cf144bc56b855562",
+      "notes": "Unabhaengiger Neustart-Waechter plus kombinierter Speed+Geld-Test. Wartet auf echten EXE-Austausch; Speed -> 1x-Rueckstellung -> vorhandene 3x+500-Geldsuche -> eine Ergebnis-ZIP."
     }
   ]
 }
