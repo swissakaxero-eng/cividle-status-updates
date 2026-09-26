@@ -31,42 +31,56 @@ def apply(root):
     _replace_exact(core, 'TRAINER_VERSION = "0.11.10"', 'TRAINER_VERSION = "0.11.11"', 1)
 
     g = gui.read_text(encoding="utf-8")
-
-    anchor = '''        self.turbostop_btn = ttk.Button(
+    anchor = """        self.turbostop_btn = ttk.Button(
             stress_actions, text="TURBO STOP", command=self.stop_turbo_best, state="disabled"
         )
         self.turbostop_btn.pack(side="left", padx=8)
-'''
+"""
     if anchor not in g:
         raise RuntimeError("Turbo button anchor not found")
 
-    cleanup = anchor + '''        # V01111_UI_CLEANUP
-        # Alte Diagnose-/Experiment-Buttons bleiben intern erhalten, werden aber
-        # aus der normalen Bedienoberflaeche entfernt.
-        for _name in (
-            "speed16_btn",
-            "speedstress_btn",
-            "effectivespeed_btn",
-            "limiterab_btn",
-            "cpurender_btn",
-            "miniturbo_btn",
-        ):
-            _widget = getattr(self, _name, None)
-            if _widget is not None:
-                try:
-                    _widget.pack_forget()
-                except Exception:
-                    pass
-        try:
+    cleanup = anchor + """        # V01111_UI_CLEANUP
+        # Erst nach komplettem GUI-Aufbau ausblenden, damit spaeter erzeugte
+        # Diagnosehinweise ebenfalls sicher verschwinden.
+        def _v01111_cleanup_ui():
+            obsolete_names = (
+                "speed16_btn",
+                "speedstress_btn",
+                "effectivespeed_btn",
+                "limiterab_btn",
+                "cpurender_btn",
+                "miniturbo_btn",
+            )
+            for _name in obsolete_names:
+                _widget = getattr(self, _name, None)
+                if _widget is not None:
+                    try:
+                        _widget.pack_forget()
+                    except Exception:
+                        pass
+            obsolete_texts = (
+                "16x KURZTEST",
+                "STRESS 24x",
+                "ECHTE SPEED MESSEN",
+                "LIMITER A/B",
+                "CPU/GRAFIK A/B",
+                "MINI-TURBO KURVE",
+            )
             for _widget in list(stress_actions.winfo_children()):
                 try:
-                    if isinstance(_widget, ttk.Label) and "stoppt automatisch" in str(_widget.cget("text")):
-                        _widget.pack_forget()
+                    _text = str(_widget.cget("text"))
                 except Exception:
-                    pass
-        except Exception:
-            pass
-'''
+                    _text = ""
+                if (
+                    any(_needle in _text for _needle in obsolete_texts)
+                    or "stoppt automatisch" in _text
+                ):
+                    try:
+                        _widget.pack_forget()
+                    except Exception:
+                        pass
+        self.root.after_idle(_v01111_cleanup_ui)
+"""
     g = g.replace(anchor, cleanup, 1)
     gui.write_text(g, encoding="utf-8")
 
@@ -75,8 +89,9 @@ def apply(root):
     (root / "CHANGELOG_V0_11_11.md").write_text(
         "# V0.11.11 - UI Cleanup\n\n"
         "- Alte experimentelle Testbuttons aus der normalen EXE-Oberflaeche ausgeblendet.\n"
+        "- Das Ausblenden erfolgt nach dem vollstaendigen GUI-Aufbau.\n"
         "- Intern bleibt die Diagnose-Logik fuer Recovery/gezielte spaetere Tests erhalten.\n"
-        "- Sichtbar bleiben die produktiven Turbo-Funktionen und die sicheren Grundfunktionen.\n"
+        "- Sichtbar bleiben produktive Turbo-Funktionen und sichere Grundfunktionen.\n"
         "- Keine Aenderung an Speed-, Geld-, Waren-, Speicherwrite- oder Updater-Logik.\n",
         encoding="utf-8",
     )
