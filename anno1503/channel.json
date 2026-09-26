@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.10.6",
+  "latest_version": "0.10.10",
   "bootstrap_min_version": "0.10.0",
   "releases": [
     {
@@ -52,6 +52,12 @@
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.8.py",
       "payload_sha256": "cec8f83d23540c5ae22562222066e8654b035c9416b5e3b6cf144bc56b855562",
       "notes": "Unabhaengiger Neustart-Waechter plus kombinierter Speed+Geld-Test. Wartet auf echten EXE-Austausch; Speed -> 1x-Rueckstellung -> vorhandene 3x+500-Geldsuche -> eine Ergebnis-ZIP."
+    },
+    {
+      "version": "0.10.10",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.10.py",
+      "payload_sha256": "0cfb619ad1d646465c773c29fff8654e7b179b16c98e8bcf85be2e7f0ca96184",
+      "notes": "Schneller Kombitest: Offline-Auswertung des letzten Messlaufs waehlt kurze Live-Fenster; nur bei zu wenig Evidenz ein laengerer Retry. Speed-Grenzwerte und 1x-Sicherheitsrueckstellung unveraendert. Geldtest maximal 4 Ctrl+M-Pulse."
     }
   ]
 }
