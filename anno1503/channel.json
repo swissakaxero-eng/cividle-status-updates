@@ -2,68 +2,32 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.0",
+  "latest_version": "0.11.3",
   "bootstrap_min_version": "0.11.0",
   "releases": [
-    {
-      "version": "0.10.3",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.3.py",
-      "payload_sha256": "9d3805f487e1a72949ac1af657e453915acd7d0695d54eeec6cebfbd865853cf",
-      "notes": "Zweistufige Speed-Messung: Breitscan, gezielte 1x/2x/4x-Wiederholungsbestaetigung, danach gezielte 6x-Pruefung."
-    },
-    {
-      "version": "0.10.4",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.4.py",
-      "payload_sha256": "f2308784ddfdc59f91030a85512617449d5f4a38a994b8e8979969f24b6c3c1b",
-      "notes": "UI-Update: Update pruefen + Status dauerhaft oben sichtbar; Mindestfensterhoehe reduziert. Keine Spiel-/Speed-/Waren-/Geldlogik geaendert."
-    },
-    {
-      "version": "0.10.5",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.5.py",
-      "payload_sha256": "54ab33892043f2bc130eea55f9c748f24df8f1f3b79bdf7025565b9fe5159c87",
-      "notes": "Speed-Diagnose robuster: bis zu 24 evidenzsortierte Kandidaten, laengere gezielte Messfenster und erhaltene Broad/Target-Rohdaten. Kalibrierungs-Grenzwerte sowie Waren-/Geldlogik unveraendert."
-    },
-    {
-      "version": "0.10.6",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.6.py",
-      "payload_sha256": "854bc5b8e7b81c563933e4670ac38d9dbd5dc2175dc3eee15492ad7d36a8b9c0",
-      "notes": "Update-Neustart-Fix: bereinigt vererbte PyInstaller-_MEI/_PYI-Umgebung und erzwingt frische Runtime. Keine Speed-/Waren-/Geld-/Gameplaylogik geaendert."
-    },
-    {
-      "version": "0.10.7",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.7.py",
-      "payload_sha256": "142cfc8a62fbaf1d0aa4f1c254324a5e62d39981677bc79a565250998b299822",
-      "notes": "Recovery-sichere Entwicklungsbruecke fuer Mehrfachtest; akzeptiert teilweisen 0.10.6/0.10.7-Stand und exportiert auch updater.py-Kontext. Keine Gameplaylogik geaendert."
-    },
-    {
-      "version": "0.10.8",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.8.py",
-      "payload_sha256": "cec8f83d23540c5ae22562222066e8654b035c9416b5e3b6cf144bc56b855562",
-      "notes": "Unabhaengiger Neustart-Waechter plus kombinierter Speed+Geld-Test."
-    },
-    {
-      "version": "0.10.10",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.10.py",
-      "payload_sha256": "0cfb619ad1d646465c773c29fff8654e7b179b16c98e8bcf85be2e7f0ca96184",
-      "notes": "Schneller Kombitest: Offline-Auswertung des letzten Messlaufs waehlt kurze Live-Fenster; nur bei zu wenig Evidenz ein laengerer Retry. Speed-Grenzwerte und 1x-Sicherheitsrueckstellung unveraendert. Geldtest maximal 4 Ctrl+M-Pulse."
-    },
-    {
-      "version": "0.10.11",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.11.py",
-      "payload_sha256": "3a1679daf8f27604dab6469517821d3af3194caeaff34acbecca09522b97ba38",
-      "notes": "Same-session Cache: bei gleicher Anno-PID werden bestaetigte Speedadresse, bis zu 32 Zaehler und kleine Geldkandidatensaetze aus dem letzten Run live neu geprueft. Dadurch entfallen die grossen Vollscans normalerweise. Bei neuer PID automatischer Fallback auf Vollsuche."
-    },
     {
       "version": "0.11.0",
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.0.py",
       "payload_sha256": "2cafbc74ed95959fc2a00666ec38c5dbd5be5205e05564d9a9e11d86d6dc4053",
-      "notes": "Transactional Updater V3: kompletter Patch+Compile+Build bei laufender alter EXE; kurzer Commit mit Startup-Healthcheck, automatischem Rollback und Quarantaene fehlgeschlagener identischer Releases. Keine Gameplaylogik geaendert."
+      "notes": "Transactional Updater V3 Basis. Keine Gameplaylogik geaendert."
     },
     {
       "version": "0.11.1",
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.1.py",
       "payload_sha256": "f8fea1df2319e23f18f693ab8389e97a25f20263058867682f016547f04d8e40",
-      "notes": "Reiner End-to-End-Smoke-Test des Transactional Updater V3. Nur Versions-/Statusmarker; keine Speed-, Geld-, Waren-, Kalibrierungs- oder Speicherwrite-Logik geaendert."
+      "notes": "V3 Smoke-Test. Keine Gameplaylogik geaendert."
+    },
+    {
+      "version": "0.11.2",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.2.py",
+      "payload_sha256": "51eb92a82ab6af6ed77abb532ebc841afc23e694b505c5bce4140af363349d5d",
+      "notes": "Transactional Updater V3.1 Silent: unsichtbare Helper und Fortschrittsstatus. Keine Gameplaylogik geaendert."
+    },
+    {
+      "version": "0.11.3",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.3.py",
+      "payload_sha256": "d15fb72f65e1a76af202cc0201c8c4e06a4ad72ed7dd3d54e7c4f6e37d415020",
+      "notes": "Reiner End-to-End-Smoke-Test von Updater V3.1 Silent. Nur Versions-/Statusmarker; keine Spiel-/Speed-/Geldlogik geaendert."
     }
   ]
 }
