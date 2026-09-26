@@ -2,32 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.3",
-  "bootstrap_min_version": "0.11.0",
+  "latest_version": "0.11.2",
+  "bootstrap_min_version": "0.11.2",
   "releases": [
-    {
-      "version": "0.11.0",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.0.py",
-      "payload_sha256": "2cafbc74ed95959fc2a00666ec38c5dbd5be5205e05564d9a9e11d86d6dc4053",
-      "notes": "Transactional Updater V3 Basis. Keine Gameplaylogik geaendert."
-    },
-    {
-      "version": "0.11.1",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.1.py",
-      "payload_sha256": "f8fea1df2319e23f18f693ab8389e97a25f20263058867682f016547f04d8e40",
-      "notes": "V3 Smoke-Test. Keine Gameplaylogik geaendert."
-    },
     {
       "version": "0.11.2",
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.2.py",
       "payload_sha256": "51eb92a82ab6af6ed77abb532ebc841afc23e694b505c5bce4140af363349d5d",
-      "notes": "Transactional Updater V3.1 Silent: unsichtbare Helper und Fortschrittsstatus. Keine Gameplaylogik geaendert."
-    },
-    {
-      "version": "0.11.3",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.3.py",
-      "payload_sha256": "d15fb72f65e1a76af202cc0201c8c4e06a4ad72ed7dd3d54e7c4f6e37d415020",
-      "notes": "Reiner End-to-End-Smoke-Test von Updater V3.1 Silent. Nur Versions-/Statusmarker; keine Spiel-/Speed-/Geldlogik geaendert."
+      "notes": "Updater V3.1 stable hold while V3.2 commit fix is installed."
     }
   ]
 }
