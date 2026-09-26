@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.10.6",
+  "latest_version": "0.10.7",
   "bootstrap_min_version": "0.10.0",
   "releases": [
     {
@@ -40,6 +40,12 @@
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.6.py",
       "payload_sha256": "854bc5b8e7b81c563933e4670ac38d9dbd5dc2175dc3eee15492ad7d36a8b9c0",
       "notes": "Update-Neustart-Fix: bereinigt vererbte PyInstaller-_MEI/_PYI-Umgebung und erzwingt frische Runtime. Keine Speed-/Waren-/Geld-/Gameplaylogik geaendert."
+    },
+    {
+      "version": "0.10.7",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.10.7.py",
+      "payload_sha256": "142cfc8a62fbaf1d0aa4f1c254324a5e62d39981677bc79a565250998b299822",
+      "notes": "Recovery-sichere Entwicklungsbruecke fuer Mehrfachtest; akzeptiert teilweisen 0.10.6/0.10.7-Stand und exportiert auch updater.py-Kontext. Keine Gameplaylogik geaendert."
     }
   ]
 }
