@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.8",
-  "bootstrap_min_version": "0.11.7",
+  "latest_version": "0.11.9",
+  "bootstrap_min_version": "0.11.8",
   "releases": [
     {
-      "version": "0.11.8",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.8.py",
-      "payload_sha256": "7c195208c4ad5ac0b529a61bc336065d0e0b022b1a387540b54640bffd48dd89",
-      "notes": "CPU/Grafik A/B: misst echte Simulationsrate und Prozess-CPU bei 1x sichtbar, 32x sichtbar, 32x minimiert und 32x sichtbar erneut. Kein Vollscan/Geldtest; Fenster- und 1x-Rueckstellung am Ende."
+      "version": "0.11.9",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.9.py",
+      "payload_sha256": "8e9d3e2f8f670354087f86c59c1b6c16f3ff7be8dcfee54659a198d3f7574b09",
+      "notes": "Mini-Turbo-Kurve im minimierten Anno-Fenster: 32x bis 1024x, echte Simulationsrate plus Prozess-CPU, kurze Messfenster und Fruehabbruch bei Plateau/Abfall. Kein Vollscan, kein Geldtest, keine Spieldatei-Aenderung; finale Fenster-Wiederherstellung und 1x-Readback."
     }
   ]
 }
