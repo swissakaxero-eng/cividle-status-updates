@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.9",
-  "bootstrap_min_version": "0.11.8",
+  "latest_version": "0.11.10",
+  "bootstrap_min_version": "0.11.9",
   "releases": [
     {
-      "version": "0.11.9",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.9.py",
-      "payload_sha256": "8e9d3e2f8f670354087f86c59c1b6c16f3ff7be8dcfee54659a198d3f7574b09",
-      "notes": "Mini-Turbo-Kurve im minimierten Anno-Fenster: 32x bis 1024x, echte Simulationsrate plus Prozess-CPU, kurze Messfenster und Fruehabbruch bei Plateau/Abfall. Kein Vollscan, kein Geldtest, keine Spieldatei-Aenderung; finale Fenster-Wiederherstellung und 1x-Readback."
+      "version": "0.11.10",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.10.py",
+      "payload_sha256": "23a17c6f624aa45bf9c72277b7b74cafc9ae91ff75b48a236552eea893bd968c",
+      "notes": "Turbo-Optimizer mit sichtbarem Hauptprofil: vergleicht 32x sichtbar/minimiert/versteckt, fuehrt die Feinsuche 10x bis 48x bewusst bei sichtbarem Anno-Fenster aus und speichert das beste sichtbare Profil fuer TURBO SICHTBAR START/STOP. Kein Vollscan, kein Geldtest, keine Spieldatei-Aenderung."
     }
   ]
 }
