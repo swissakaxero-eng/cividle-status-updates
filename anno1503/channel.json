@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.10.12",
+  "latest_version": "0.10.11",
   "bootstrap_min_version": "0.10.0",
   "releases": [
     {
