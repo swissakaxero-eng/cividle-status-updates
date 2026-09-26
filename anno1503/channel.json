@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.5",
-  "bootstrap_min_version": "0.11.4",
+  "latest_version": "0.11.6",
+  "bootstrap_min_version": "0.11.5",
   "releases": [
     {
-      "version": "0.11.5",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.5.py",
-      "payload_sha256": "94e6eee6ea0266f9dbf0e351878cd7026da7ea715ef329c37db53106cbc6fa64",
-      "notes": "Dynamische Versionsanzeige plus Speed-Stresstest 24x bis 4096x. Kurze Stufen, Readback/Prozess-Pruefung und 1x-Rueckstellung zwischen stabilen Stufen. Stop beim ersten Fehler/Prozessverlust. Kein Vollscan, kein Geldtest."
+      "version": "0.11.6",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.6.py",
+      "payload_sha256": "37f9c51d8bc7e842b391af75978ee23b541ccd3972cf900948839d08e74c21d7",
+      "notes": "Misst reale Simulationsgeschwindigkeit ueber bereits kalibrierte Spielzaehler bei 1/2/4/6/8/10/12/16/24/32/48/64/96/128x. Kein Vollscan, kein Geldtest; bestimmt effektives Maximum und 95%-Plateau; finale 1x-Rueckstellung."
     }
   ]
 }
