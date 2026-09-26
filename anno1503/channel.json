@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.7",
-  "bootstrap_min_version": "0.11.6",
+  "latest_version": "0.11.8",
+  "bootstrap_min_version": "0.11.7",
   "releases": [
     {
-      "version": "0.11.7",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.7.py",
-      "payload_sha256": "28e710138b0402b24a9198c3f1541b6dafd6ec896e15e1346d4db22867e882fb",
-      "notes": "Gezielter A/B-Test der zwei expliziten Sleep(2)-Schleifen in AnnoFrame.dll aus dem Offline-Scan. Temporaer nur Prozessspeicher-Immediate 2->0, strikte Signaturpruefung, automatische Wiederherstellung, 32x Gegenmessung, kein Vollscan/Geldtest. Behebt ausserdem den fehlenden statistics-Import von V0.11.6."
+      "version": "0.11.8",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.8.py",
+      "payload_sha256": "7c195208c4ad5ac0b529a61bc336065d0e0b022b1a387540b54640bffd48dd89",
+      "notes": "CPU/Grafik A/B: misst echte Simulationsrate und Prozess-CPU bei 1x sichtbar, 32x sichtbar, 32x minimiert und 32x sichtbar erneut. Kein Vollscan/Geldtest; Fenster- und 1x-Rueckstellung am Ende."
     }
   ]
 }
