@@ -356,6 +356,8 @@ def load_same_session_counter_addresses(hproc, expected_pid, speed_info):
 
     g=g.replace('"version":"0.10.10",\n                        "method":"existing_learn_money_ctrl_m_3x_plus500",',
                 '"version":"0.10.11",\n                        "method":"same_session_cache_then_robust_ctrl_m",',1)
+    g=g.replace('"nominal_max_added_gold":3000,\n                        "maximum_ctrl_m_pulses":6,',
+                '"nominal_max_added_gold":2000,\n                        "maximum_ctrl_m_pulses":4,',1)
     g=g.replace('"version":"0.10.10","found":False,"error":str(exc)',
                 '"version":"0.10.11","found":False,"error":str(exc)',1)
     g=g.replace('"version":"0.10.10",\n                    "kind":"combined_speed_money_test",',
