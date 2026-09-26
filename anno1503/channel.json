@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.4",
-  "bootstrap_min_version": "0.11.3",
+  "latest_version": "0.11.5",
+  "bootstrap_min_version": "0.11.4",
   "releases": [
     {
-      "version": "0.11.4",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.4.py",
-      "payload_sha256": "63f90a13072ff0dc8807debf2512aebb94b728474517e65e6791aa5cc03b3349",
-      "notes": "Echter 16x-Kurztest: 5 Sekunden, kein Geldtest, kein Vollscan. Same-Session-Speed wird live per F5->1.0 bestaetigt; danach 16x mit Readback-Ueberwachung und zwingender 1x-Rueckstellung. Keine Aenderung am Transactional Updater V3.2.2 ausser Versionsmarker."
+      "version": "0.11.5",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.5.py",
+      "payload_sha256": "94e6eee6ea0266f9dbf0e351878cd7026da7ea715ef329c37db53106cbc6fa64",
+      "notes": "Dynamische Versionsanzeige plus Speed-Stresstest 24x bis 4096x. Kurze Stufen, Readback/Prozess-Pruefung und 1x-Rueckstellung zwischen stabilen Stufen. Stop beim ersten Fehler/Prozessverlust. Kein Vollscan, kein Geldtest."
     }
   ]
 }
