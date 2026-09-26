@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.2",
-  "bootstrap_min_version": "0.11.2",
+  "latest_version": "0.11.4",
+  "bootstrap_min_version": "0.11.3",
   "releases": [
     {
-      "version": "0.11.2",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.2.py",
-      "payload_sha256": "51eb92a82ab6af6ed77abb532ebc841afc23e694b505c5bce4140af363349d5d",
-      "notes": "Updater V3.1 stable hold while V3.2 commit fix is installed."
+      "version": "0.11.4",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.4.py",
+      "payload_sha256": "63f90a13072ff0dc8807debf2512aebb94b728474517e65e6791aa5cc03b3349",
+      "notes": "Echter 16x-Kurztest: 5 Sekunden, kein Geldtest, kein Vollscan. Same-Session-Speed wird live per F5->1.0 bestaetigt; danach 16x mit Readback-Ueberwachung und zwingender 1x-Rueckstellung. Keine Aenderung am Transactional Updater V3.2.2 ausser Versionsmarker."
     }
   ]
 }
