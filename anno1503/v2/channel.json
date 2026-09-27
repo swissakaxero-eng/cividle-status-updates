@@ -3,7 +3,7 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 7,
+  "sequence": 8,
   "releases": [
     {
       "version": "0.11.26",
@@ -82,6 +82,19 @@
       "sha256": "87373d8ee73915af52fbba1d014b05dd29c64426723614121538785baf48ed4e",
       "build_id": "e4531754cda1f8c262d2ff8e2df8a79fd041e0aacbc1a320f08889afe53ab6b8",
       "notes": "Waren-Maximum korrigiert: 900 statt 999. Alter Waren-Freeze und neuer Werkzeug-Test nutzen beide 900. Geld 999999 unveraendert."
+    },
+    {
+      "version": "0.11.32",
+      "generation": 7,
+      "format": "full-source",
+      "protocol": 2,
+      "approved": true,
+      "transport": "onedrive",
+      "file": "ANNO1503_FULLSOURCE_0.11.32.zip",
+      "size": 92794,
+      "sha256": "18ee8ca6694ba9110847690adb346f19beac66ff34ebf79a8a48cae13e144bb1",
+      "build_id": "9ca368df09bef6b71b792db280c02c51273f3336b2ab6fa4f2650a23c41e702f",
+      "notes": "Waren: 0 lineare Layout-Treffer ist kein Abbruch mehr. Exakt eindeutige Einzelanker werden direkt per Write->+5->Restore autorisiert; bei diesem Test ist Nahrung der eindeutige Kandidat. Nahrung 900 kann danach separat live revalidiert werden. Geld bleibt unveraendert; Karren pausiert."
     }
   ]
 }
