@@ -3,7 +3,7 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 8,
+  "sequence": 9,
   "releases": [
     {
       "version": "0.11.26",
@@ -68,7 +68,7 @@
       "size": 90331,
       "sha256": "4d5d50a573db7be5535befd1b3ec48ee2bd1353cb9d25342af811784de1c97fa",
       "build_id": "b4539886328879c2b41f6833744506bf335581835e41b6982a77d04afbd20e6e",
-      "notes": "Waren: eigener sicherer Lernpfad. Werkzeug/Ziegel/Nahrung muessen jeweils Write->+5->Restore bestehen. Danach separater Werkzeug-999-Test mit Live-Revalidierung; Geldcode unveraendert, Karren pausiert."
+      "notes": "Waren: eigener sicherer Lernpfad. Werkzeug/Ziegel/Nahrung muessen jeweils Write->+5->Restore bestehen. Geldcode unveraendert; Karren pausiert."
     },
     {
       "version": "0.11.31",
@@ -94,7 +94,20 @@
       "size": 92794,
       "sha256": "18ee8ca6694ba9110847690adb346f19beac66ff34ebf79a8a48cae13e144bb1",
       "build_id": "9ca368df09bef6b71b792db280c02c51273f3336b2ab6fa4f2650a23c41e702f",
-      "notes": "Waren: 0 lineare Layout-Treffer ist kein Abbruch mehr. Exakt eindeutige Einzelanker werden direkt per Write->+5->Restore autorisiert; bei diesem Test ist Nahrung der eindeutige Kandidat. Nahrung 900 kann danach separat live revalidiert werden. Geld bleibt unveraendert; Karren pausiert."
+      "notes": "Waren: Exakt eindeutige Einzelanker werden direkt per Write->+5->Restore autorisiert. Nahrung 900 separat pruefbar."
+    },
+    {
+      "version": "0.11.33",
+      "generation": 8,
+      "format": "full-source",
+      "protocol": 2,
+      "approved": true,
+      "transport": "onedrive",
+      "file": "ANNO1503_FULLSOURCE_0.11.33.zip",
+      "size": 94013,
+      "sha256": "5e97c5761d52b173f8db82d7a2ba6941ae7d14376aae6d6be1bf700a23b8f98d",
+      "build_id": "457fdd007aca691bc5cf4d4068a581a590cac602e9df2ff0795f6341df78d3be",
+      "notes": "Waren: Restkandidaten werden ohne neuen Vollscan mit weiteren +5-Pulsen progressiv gefiltert. Nur final 1 Kandidat wird Write->+5->Restore getestet. Ziegel/Nahrung 900 nur nach echter Direkt-Autoritaet. Doppel-Popup entfernt."
     }
   ]
 }
