@@ -3,7 +3,7 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 4,
+  "sequence": 6,
   "releases": [
     {
       "version": "0.11.26",
@@ -29,7 +29,7 @@
       "size": 85752,
       "sha256": "1c1945045d114a34893ef328ec1ed7231fed410b15f5d5e918ba25c85987a912",
       "build_id": "b3ad4d1e74d11ab8e84a90510012b23ad346d5ec8b0e43f8f1e4cb7040373365",
-      "notes": "Karren: Wenn nach 1->2->3 exakt zwei nahe Kandidaten bleiben, sofortiger reversibler A/B-Autoritaetstest mit 4 und 2. Nur eine eindeutige Einweg-Kopplung schaltet KARREN SETZEN frei. Geld/Speed unveraendert."
+      "notes": "Karren: Zwei nahe Kandidaten per reversibler A/B-Probe unterscheiden."
     },
     {
       "version": "0.11.28",
@@ -42,7 +42,33 @@
       "size": 86558,
       "sha256": "42f0a13ef92225c07a451605410b7c74a395ffc02a8415cf98ec73419b6bb4a4",
       "build_id": "38a3d2551790f6a0535df175ccfeb9932dafd54fbd35b99b85617fdacf7b4ab6",
-      "notes": "Regression-Schutz: Geldcache wird vor 999999 live per Ctrl+M/+500 revalidiert und bei Save-/Weltwechsel automatisch neu gelernt. Karren-Readback allein gilt nicht mehr als Spielwirkungsbeweis; 1-8 bleibt bis Verhaltensbestaetigung gesperrt."
+      "notes": "Geldcache vor 999999 live per Ctrl+M/+500 revalidieren; Karren-Readback allein entsperrt nicht mehr."
+    },
+    {
+      "version": "0.11.29",
+      "generation": 4,
+      "format": "full-source",
+      "protocol": 2,
+      "approved": true,
+      "transport": "onedrive",
+      "file": "ANNO1503_FULLSOURCE_0.11.29.zip",
+      "size": 86678,
+      "sha256": "313f80ed375b92a9f2d91c5d2093337577238eb908ea5a678a390abc06f57657",
+      "build_id": "e393ae4b9a25242f8010084d9185af8abd687eda452f8627742f83abe7515e43",
+      "notes": "Geld: Fix fuer exakt einen qualifizierten Kandidaten; Write->Ctrl+M(+500)->Restore bleibt Pflicht."
+    },
+    {
+      "version": "0.11.30",
+      "generation": 5,
+      "format": "full-source",
+      "protocol": 2,
+      "approved": true,
+      "transport": "onedrive",
+      "file": "ANNO1503_FULLSOURCE_0.11.30.zip",
+      "size": 90331,
+      "sha256": "4d5d50a573db7be5535befd1b3ec48ee2bd1353cb9d25342af811784de1c97fa",
+      "build_id": "b4539886328879c2b41f6833744506bf335581835e41b6982a77d04afbd20e6e",
+      "notes": "Waren: eigener sicherer Lernpfad. Werkzeug/Ziegel/Nahrung muessen jeweils Write->+5->Restore bestehen. Danach separater Werkzeug-999-Test mit Live-Revalidierung; Geldcode unveraendert, Karren pausiert."
     }
   ]
 }
