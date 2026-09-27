@@ -109,7 +109,7 @@ def apply(root):
     start_anchor='''        profile=core.load_turbo_profile()
         if not profile:
             profile={
-                "schema":1,"version":"0.11.13","factor":32.0,
+                "schema":1,"version":"0.11.14","factor":32.0,
                 "window_mode":"visible","effective_vs_1x":9.0,
                 "spread":0.0,"cpu_core_equivalents":None,
                 "counter_source_run":None,"counter_addresses":[],
