@@ -3,6 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1,
-  "releases": []
+  "sequence": 2,
+  "releases": [
+    {
+      "version": "0.11.26",
+      "generation": 1,
+      "format": "full-source",
+      "protocol": 2,
+      "approved": true,
+      "transport": "onedrive",
+      "file": "ANNO1503_FULLSOURCE_0.11.26.zip",
+      "size": 83268,
+      "sha256": "797c0846516a56ec2d67f4272143dc7bc10ca6748890684ccd85aa3e58e38843",
+      "build_id": "a468d772183cf7dcdf2e938983a041004d16e8bc3bba29121b14743c1ee140b3",
+      "notes": "Karren: Markthaupthaus 1->2->3, danach sofortige Quellenprobe im selben Live-Test. Geld/Speed bleiben unveraendert."
+    }
+  ]
 }
