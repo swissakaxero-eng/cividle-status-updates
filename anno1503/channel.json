@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.10",
-  "bootstrap_min_version": "0.11.9",
+  "latest_version": "0.11.12",
+  "bootstrap_min_version": "0.11.10",
   "releases": [
     {
-      "version": "0.11.10",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.10.py",
-      "payload_sha256": "23a17c6f624aa45bf9c72277b7b74cafc9ae91ff75b48a236552eea893bd968c",
-      "notes": "Turbo-Optimizer mit sichtbarem Hauptprofil. Zwischenstand fuer sichere Update-Kette."
+      "version": "0.11.12",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.12.py",
+      "payload_sha256": "7da4da76f0c6a7462019575bcee6267e3b1fd700befeec3c75cf59fed9f70b11",
+      "notes": "UI cleanup and updater sync hardening. Stale local OneDrive patch copies are ignored when their SHA256 is wrong; verified remote bytes remain required."
     }
   ]
 }
