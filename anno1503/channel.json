@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.12",
-  "bootstrap_min_version": "0.11.10",
+  "latest_version": "0.11.13",
+  "bootstrap_min_version": "0.11.12",
   "releases": [
     {
-      "version": "0.11.12",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.12.py",
-      "payload_sha256": "7da4da76f0c6a7462019575bcee6267e3b1fd700befeec3c75cf59fed9f70b11",
-      "notes": "UI cleanup and updater sync hardening. Stale local OneDrive patch copies are ignored when their SHA256 is wrong; verified remote bytes remain required."
+      "version": "0.11.13",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.13.py",
+      "payload_sha256": "bac8af8bed0d3fd4067b6ff27170e6c0a8076bc58c7ed9c3cd18987cc98899e4",
+      "notes": "Turbo Auto-Rebind after a new Anno process; automatic one-time speed relearn on cache miss and visible 32x bootstrap profile when no current counter cache exists."
     }
   ]
 }
