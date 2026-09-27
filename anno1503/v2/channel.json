@@ -3,7 +3,7 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 2,
+  "sequence": 3,
   "releases": [
     {
       "version": "0.11.26",
@@ -17,6 +17,19 @@
       "sha256": "797c0846516a56ec2d67f4272143dc7bc10ca6748890684ccd85aa3e58e38843",
       "build_id": "a468d772183cf7dcdf2e938983a041004d16e8bc3bba29121b14743c1ee140b3",
       "notes": "Karren: Markthaupthaus 1->2->3, danach sofortige Quellenprobe im selben Live-Test. Geld/Speed bleiben unveraendert."
+    },
+    {
+      "version": "0.11.27",
+      "generation": 2,
+      "format": "full-source",
+      "protocol": 2,
+      "approved": true,
+      "transport": "onedrive",
+      "file": "ANNO1503_FULLSOURCE_0.11.27.zip",
+      "size": 85752,
+      "sha256": "1c1945045d114a34893ef328ec1ed7231fed410b15f5d5e918ba25c85987a912",
+      "build_id": "b3ad4d1e74d11ab8e84a90510012b23ad346d5ec8b0e43f8f1e4cb7040373365",
+      "notes": "Karren: Wenn nach 1->2->3 exakt zwei nahe Kandidaten bleiben, sofortiger reversibler A/B-Autoritaetstest mit 4 und 2. Nur eine eindeutige Einweg-Kopplung schaltet KARREN SETZEN frei. Geld/Speed unveraendert."
     }
   ]
 }
