@@ -2,14 +2,14 @@
   "schema": 1,
   "project": "Anno 1503 Auto Trainer",
   "channel": "stable",
-  "latest_version": "0.11.13",
-  "bootstrap_min_version": "0.11.12",
+  "latest_version": "0.11.14",
+  "bootstrap_min_version": "0.11.13",
   "releases": [
     {
-      "version": "0.11.13",
-      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.13.py",
-      "payload_sha256": "bac8af8bed0d3fd4067b6ff27170e6c0a8076bc58c7ed9c3cd18987cc98899e4",
-      "notes": "Turbo Auto-Rebind after a new Anno process; automatic one-time speed relearn on cache miss and visible 32x bootstrap profile when no current counter cache exists."
+      "version": "0.11.14",
+      "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.14.py",
+      "payload_sha256": "40dfb78c6b08b4c0420e4354e8fd1f77ecce1d65835833a05f1daa937da8b7e3",
+      "notes": "Turbo-Worker Auto-Rebind Fix: TURBO SICHTBAR START lernt nach neuer Anno-Sitzung bei Cache-Miss die Speed-Bindung einmal automatisch neu, startet danach das sichtbare Profil und fordert im Fehlerpfad F5/1x an. Keine Spieldatei-, Waren- oder Geldlogik geaendert."
     }
   ]
 }
