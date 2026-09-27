@@ -8,8 +8,8 @@
     {
       "version": "0.11.15",
       "payload_url": "https://raw.githubusercontent.com/swissakaxero-eng/cividle-status-updates/main/anno1503/patches/0.11.15.py",
-      "payload_sha256": "dd3b72d03bbe6aa3d7095b3b8e61dc8784eb7858c150489a7808ae3ca7ee9778",
-      "notes": "Live sichtbarer Turbo-Speed-Regler 1x bis 128x. 32x bleibt bewaehrter Standard; laufender Turbo uebernimmt Regler-Aenderungen live. TURBO STOP stellt weiterhin auf 1x zurueck. Keine Spieldatei-, Waren- oder Geldlogik geaendert."
+      "payload_sha256": "b182cc22b3d6a59f5e9266729a2d3e3a4e208d04957f1bd37f5017e9a102cb8b",
+      "notes": "Live sichtbarer Turbo-Speed-Regler 1x bis 128x. 32x bleibt bewaehrter Standard; laufender Turbo uebernimmt Regler-Aenderungen live. TURBO STOP stellt weiterhin auf 1x zurueck. Korrigierter Patch-Anker fuer V0.11.14."
     }
   ]
 }
