@@ -3,7 +3,7 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 6,
+  "sequence": 7,
   "releases": [
     {
       "version": "0.11.26",
@@ -69,6 +69,19 @@
       "sha256": "4d5d50a573db7be5535befd1b3ec48ee2bd1353cb9d25342af811784de1c97fa",
       "build_id": "b4539886328879c2b41f6833744506bf335581835e41b6982a77d04afbd20e6e",
       "notes": "Waren: eigener sicherer Lernpfad. Werkzeug/Ziegel/Nahrung muessen jeweils Write->+5->Restore bestehen. Danach separater Werkzeug-999-Test mit Live-Revalidierung; Geldcode unveraendert, Karren pausiert."
+    },
+    {
+      "version": "0.11.31",
+      "generation": 6,
+      "format": "full-source",
+      "protocol": 2,
+      "approved": true,
+      "transport": "onedrive",
+      "file": "ANNO1503_FULLSOURCE_0.11.31.zip",
+      "size": 90400,
+      "sha256": "87373d8ee73915af52fbba1d014b05dd29c64426723614121538785baf48ed4e",
+      "build_id": "e4531754cda1f8c262d2ff8e2df8a79fd041e0aacbc1a320f08889afe53ab6b8",
+      "notes": "Waren-Maximum korrigiert: 900 statt 999. Alter Waren-Freeze und neuer Werkzeug-Test nutzen beide 900. Geld 999999 unveraendert."
     }
   ]
 }
