@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1007,
+  "sequence": 1008,
   "releases": [
     {
-      "version": "0.11.46",
-      "generation": 21,
+      "version": "0.11.47",
+      "generation": 22,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.46.zip",
-      "size": 107184,
-      "sha256": "9b27f493fcb14c2818903f81e02a8a4dd911ee2d5ee1341d48b655b36eafef34",
-      "build_id": "b8cce867eb44b8ef0101601b01a4ffba392f27d5f0edc83a5d7f985a9be651e4",
-      "notes": "Geld V0.11.46: reiner Read-only-Quellscan nur in den bisher ausgelassenen >64-MiB-Speicherregionen. Genau ein Ctrl+M, alle vier Byte-Ausrichtungen, zwei schnelle Stabilitaetsreads, keine Speicherwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.47.zip",
+      "size": 107294,
+      "sha256": "fcc4a758ec27f63396c34df5934efd5a74ebadc9a9424939c1dfdd88112308a3",
+      "build_id": "57e9e4796729201e657e37397338e3886f31e2288d2897bfd021b390ba0bd6bb",
+      "notes": "Geld V0.11.47: reiner Read-only-Scan der normalen Speicherregionen bei allen vier Byte-Ausrichtungen. Genau ein Ctrl+M, zwei schnelle Stabilitaetsreads, keine Speicherwrites."
     }
   ]
 }
