@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1023,
+  "sequence": 1024,
   "releases": [
     {
-      "version": "0.11.62",
-      "generation": 37,
+      "version": "0.11.63",
+      "generation": 38,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.62.zip",
-      "size": 121054,
-      "sha256": "9b75c70a8134a24c5ca8cd0a12628ece76f856e2edb08b71b21ab60cc052dc6f",
-      "build_id": "0a2e461058507f445f00779953b8360a885c871ac02fc34ca2f0260395fd0024",
-      "notes": "V0.11.62 HEADLESS WAREN FALSE-POSITIVE-GUARD: verwirft druckbare Text/ASCII-Bloecke, bevorzugt kleine natuerliche Lageraenderungen und verlangt Wiederkehr desselben Kandidaten ueber mehrere Runden. Ein altes V61-clear wird nicht als V62-Beweis akzeptiert; bestehende Rundenhistorie bleibt erhalten. Bis zu 12 passive Runden, weiterhin ohne Grafik/OCR/Maus/Tastatur und ohne Warenwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.63.zip",
+      "size": 123062,
+      "sha256": "a9747fc8820a411a8e6bbfc420fa91ed8930049de8b89a70955eb9c40732edb5",
+      "build_id": "43dbca9178615d581c8a984623920720b1dcaeb3e54c2fec986b67d95d0ffa85",
+      "notes": "V0.11.63 HEADLESS WAREN LIVE-STABILITAET: ein V62-Kandidat wird erst clear, wenn mehrere verzögerte Read-only-Liveprüfungen denselben Block weiter plausibel zeigen. Vergängliche/stale Kandidaten, die auf Null zusammenbrechen, werden fail-closed verworfen. V62 Text-/Small-Delta-/Consensus-Guards bleiben aktiv; bis zu 16 passive Runden; weiterhin keine Warenwrites und keine Grafik/OCR/Maus/Tastatur."
     }
   ]
 }
