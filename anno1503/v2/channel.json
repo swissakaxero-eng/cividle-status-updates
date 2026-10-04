@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1013,
+  "sequence": 1014,
   "releases": [
     {
-      "version": "0.11.52",
-      "generation": 27,
+      "version": "0.11.53",
+      "generation": 28,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.52.zip",
-      "size": 109265,
-      "sha256": "2b627ed84eb6ce90ad623f07bb32c743cde2dff8c43bb0848370de816f09bafe",
-      "build_id": "0847e1aa27407311a2776bb6bdc96d2bbd456e848d422905ef2bc796622e6caa",
-      "notes": "Geld V0.11.52: erster Ctrl+M automatisch, danach 15 Sekunden read-only auf genau einen manuellen Ctrl+M des Benutzers warten. Kandidaten werden nur gelesen; keine Speicherwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.53.zip",
+      "size": 108779,
+      "sha256": "f06cd61b2c02d24bc6ad3a074d193fc51ae3327e5d46bb92169d66c92361d747",
+      "build_id": "528f767536052ad93f400a9de1b56db1c3f22582daa1210274e681dc169ecafe",
+      "notes": "Geld V0.11.53: kritischer Fix. Vor jedem Geldtest wird automatisch die eigene Stadt/Kontor angewählt und ruamzuzla + Enter gesendet. Erst danach Baseline, genau ein Ctrl+M und read-only Kandidatenanalyse. Keine Speicherwrites."
     }
   ]
 }
