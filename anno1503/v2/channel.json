@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1008,
+  "sequence": 1009,
   "releases": [
     {
-      "version": "0.11.47",
-      "generation": 22,
+      "version": "0.11.48",
+      "generation": 23,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.47.zip",
-      "size": 107294,
-      "sha256": "fcc4a758ec27f63396c34df5934efd5a74ebadc9a9424939c1dfdd88112308a3",
-      "build_id": "57e9e4796729201e657e37397338e3886f31e2288d2897bfd021b390ba0bd6bb",
-      "notes": "Geld V0.11.47: reiner Read-only-Scan der normalen Speicherregionen bei allen vier Byte-Ausrichtungen. Genau ein Ctrl+M, zwei schnelle Stabilitaetsreads, keine Speicherwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.48.zip",
+      "size": 108222,
+      "sha256": "078ef592b4908959525da53d8d5c5cab74be9f73e304d33bff03060989244e47",
+      "build_id": "b5eeed0432ee16676140d8fc793894a9525164f2de4a4c6ccc55ff72ae4bccb4",
+      "notes": "Geld V0.11.48: reiner Read-only-Strukturscan der dominanten +500-Gruppe. Genau ein Ctrl+M; Region-/Allocation-Metadaten, Pointer-Referenzen und kleine Speicherumgebung werden protokolliert. Keine Speicherwrites."
     }
   ]
 }
