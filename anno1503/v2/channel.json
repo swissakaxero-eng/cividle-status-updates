@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1002,
+  "sequence": 1003,
   "releases": [
     {
-      "version": "0.11.41",
-      "generation": 16,
+      "version": "0.11.42",
+      "generation": 17,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.41.zip",
-      "size": 108270,
-      "sha256": "4105421b16be7bc44df50cfeea2ccc2c0c982b128abf1965db2891e3c0b6f25b",
-      "build_id": "cc4e389e21e78504b927cc19f272a9c4461d972cbe8bfb7d678f02926e94825f",
-      "notes": "Geld V0.11.41: Ctrl bleibt fuer einen Geld-Burst gedrueckt, M wird 3x ausgeloest; +N*500 wird als gueltige Cheat-Reaktion erkannt. Frischer Burst benoetigt keinen separaten zweiten Ctrl+M-Puls. Fruehe plausible Geldwerte werden ab 1000 geprueft."
+      "file": "ANNO1503_FULLSOURCE_0.11.42.zip",
+      "size": 106226,
+      "sha256": "4e1988afa446a5a073a3eb460e19fed96b5f20e81c4a5548e2c12475e4a61db8",
+      "build_id": "32ff67ba8d8e7941990e51c65d5dda24aaa1f9541beef77cb3f908fe68f2c088",
+      "notes": "Safety rollback after V0.11.41 game crash. Money learning/write path disabled. Money button performs only snapshot + exactly one Ctrl+M + read-only +500 diff; no process-memory writes."
     }
   ]
 }
