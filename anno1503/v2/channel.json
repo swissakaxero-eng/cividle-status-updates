@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1006,
+  "sequence": 1007,
   "releases": [
     {
-      "version": "0.11.45",
-      "generation": 20,
+      "version": "0.11.46",
+      "generation": 21,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.45.zip",
-      "size": 108327,
-      "sha256": "9de30ad5a46d40f1adc03b1dd3f26c5d3f54dcbac5214606019f8de5bbc3ce64",
-      "build_id": "a55a9bd51d63c6b6fdb1a9b1696cdea88aac119d9e225ec42b7bd6534310c6ec",
-      "notes": "Geld V0.11.45: ein Baseline-Snapshot, genau ein Ctrl+M, danach zwei schnelle gezielte Stabilitaetsreads. Nur kleine identische Hochwert-Gruppe; reversible +1/Restore-Probe. 999999 erst nach bestaetigter Source->Follower-Kopplung. Kein Burst."
+      "file": "ANNO1503_FULLSOURCE_0.11.46.zip",
+      "size": 107184,
+      "sha256": "9b27f493fcb14c2818903f81e02a8a4dd911ee2d5ee1341d48b655b36eafef34",
+      "build_id": "b8cce867eb44b8ef0101601b01a4ffba392f27d5f0edc83a5d7f985a9be651e4",
+      "notes": "Geld V0.11.46: reiner Read-only-Quellscan nur in den bisher ausgelassenen >64-MiB-Speicherregionen. Genau ein Ctrl+M, alle vier Byte-Ausrichtungen, zwei schnelle Stabilitaetsreads, keine Speicherwrites."
     }
   ]
 }
