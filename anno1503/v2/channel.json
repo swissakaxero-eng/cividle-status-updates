@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1021,
+  "sequence": 1022,
   "releases": [
     {
-      "version": "0.11.60",
-      "generation": 35,
+      "version": "0.11.61",
+      "generation": 36,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.60.zip",
-      "size": 121264,
-      "sha256": "2a6994424271dd41830a4ff3419108d3b4bb5cfd3287b30041b86a61ad6e4a34",
-      "build_id": "66c1d5a41855305d25d4443a9d695e208513c2795a4d10558b8b94164b342e2a",
-      "notes": "V0.11.60 HEADLESS WAREN: passives Prozessspeicher-Lernen ohne Grafik/OCR/Maus/Tastatur und ohne Speicherwrites. Beobachtet natuerliche 16/32-bit Lageraenderungen in privaten Speicherregionen nahe der bestaetigten Spielerstruktur, leitet ID-indexierte Warenlayouts ab und speichert Restart-Topologie fuer die staerksten Kandidaten. Geld-V59-Headless bleibt enthalten."
+      "file": "ANNO1503_FULLSOURCE_0.11.61.zip",
+      "size": 120184,
+      "sha256": "2b953a3482067a0fee80d67fccac179ecf8a984a9066a6b7c89757a9394036c0",
+      "build_id": "c300f83e2ce39f00bd8a9a134da5587b64ed2b6a85a3617504fbfcae918bd91f",
+      "notes": "V0.11.61 HEADLESS GELD-PROFILFIX: trennt den V59+-Schema-2-Restart-Locator vom alten V58-Schema-1-Profil und migriert ein bereits gelerntes V59-Profil automatisch. Verhindert endloses erneutes Headless-Geldlernen und ermoeglicht dem Managed-Updater wieder echte Idle-Fenster. V60 passives Warenlernen bleibt enthalten; keine neuen Speicherwrites."
     }
   ]
 }
