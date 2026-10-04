@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1009,
+  "sequence": 1010,
   "releases": [
     {
-      "version": "0.11.48",
-      "generation": 23,
+      "version": "0.11.49",
+      "generation": 24,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.48.zip",
-      "size": 108222,
-      "sha256": "078ef592b4908959525da53d8d5c5cab74be9f73e304d33bff03060989244e47",
-      "build_id": "b5eeed0432ee16676140d8fc793894a9525164f2de4a4c6ccc55ff72ae4bccb4",
-      "notes": "Geld V0.11.48: reiner Read-only-Strukturscan der dominanten +500-Gruppe. Genau ein Ctrl+M; Region-/Allocation-Metadaten, Pointer-Referenzen und kleine Speicherumgebung werden protokolliert. Keine Speicherwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.49.zip",
+      "size": 108135,
+      "sha256": "6774bf51e643015121f7a78ceaca387b3fe28e321be049c291095471d006b54c",
+      "build_id": "34f72ce01e79ebc07d044f254393cc18e7b3b999c478df78e2eda1ff7f669634",
+      "notes": "Geld V0.11.49: read-only 10-Sekunden-Zeitreihe aller initialen +500-Kandidaten nach genau einem Ctrl+M. Keine Speicherwrites. Ziel: Timer/Spiegel von stabiler echter Geldquelle trennen."
     }
   ]
 }
