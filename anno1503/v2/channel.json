@@ -3,20 +3,18 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1017,
-  "releases": [
-    {
-      "version": "0.11.56",
-      "generation": 31,
-      "format": "full-source",
-      "protocol": 2,
-      "approved": true,
-      "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.56.zip",
-      "size": 109269,
-      "sha256": "14c949db41f656339fb1161215f334761a4949eb34a57d56eff924f4a05b1592",
-      "build_id": "c380e808087039664ef1e1ace70363e326fc4fcd26fca43e6436749bb4bf404d",
-      "notes": "Geld V0.11.56: ruamzuzla automatisch; gezielter Read-only-Test nur fuer sichtbaren Geldwert 956387. Baseline sucht exakt 956387, danach manueller STRG+M und Bestaetigung auf exakt 956887 plus 5s Persistenz. Keine Speicherwrites."
-    }
-  ]
+  "sequence": 1018,
+  "releases": [{
+    "version": "0.11.57",
+    "generation": 32,
+    "format": "full-source",
+    "protocol": 2,
+    "approved": true,
+    "transport": "onedrive",
+    "file": "ANNO1503_FULLSOURCE_0.11.57.zip",
+    "size": 108433,
+    "sha256": "3e7f59f2a780eb8b8467cad59ec168051d3944a08c3c34806b0b73c486232ba7",
+    "build_id": "3544b1c1da1bd73a715742666bb9c184dbe480704963917b32cede8afe50ae05",
+    "notes": "Confirmed money source update."
+  }]
 }
