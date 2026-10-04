@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1004,
+  "sequence": 1005,
   "releases": [
     {
-      "version": "0.11.43",
-      "generation": 18,
+      "version": "0.11.44",
+      "generation": 19,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.43.zip",
-      "size": 107813,
-      "sha256": "e42ddef9985c5050e6aa1893083f30fe1c23bf6f6ebe8ca4428836b31a0784d9",
-      "build_id": "8ba7ed25b81cf2476b8662aaed314ad1f08e8079fd9390d65c7fc1b0fcc99051",
-      "notes": "Money safe-pair test after read-only V0.11.42: exactly one Ctrl+M discovery, require one unique large duplicate pair within 0x40 bytes, reversible +1 propagation/restore only. Write 999999 only if one address provably propagates to its paired follower; otherwise restore and abort. No Ctrl+M burst."
+      "file": "ANNO1503_FULLSOURCE_0.11.44.zip",
+      "size": 108442,
+      "sha256": "fae62145a3216d2642fb364a744a7c3fea68ceb31fc3bd9b1440e01013770bf3",
+      "build_id": "edf02408fa2a15f9c2ddb30e613cdf9587c63401b4d95a8a9c35d3ac388d06fd",
+      "notes": "Geld V0.11.44: zwei read-only Baselines vor genau einem Ctrl+M; nur stabile +500-Kandidaten. Danach nur eine kleine identische Hochwert-Gruppe (2..8) und reversible +1-Propagation/Restore. 999999 erst nach bestaetigter Source->Follower-Kopplung. Kein Burst."
     }
   ]
 }
