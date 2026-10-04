@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1022,
+  "sequence": 1023,
   "releases": [
     {
-      "version": "0.11.61",
-      "generation": 36,
+      "version": "0.11.62",
+      "generation": 37,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.61.zip",
-      "size": 120184,
-      "sha256": "2b953a3482067a0fee80d67fccac179ecf8a984a9066a6b7c89757a9394036c0",
-      "build_id": "c300f83e2ce39f00bd8a9a134da5587b64ed2b6a85a3617504fbfcae918bd91f",
-      "notes": "V0.11.61 HEADLESS GELD-PROFILFIX: trennt den V59+-Schema-2-Restart-Locator vom alten V58-Schema-1-Profil und migriert ein bereits gelerntes V59-Profil automatisch. Verhindert endloses erneutes Headless-Geldlernen und ermoeglicht dem Managed-Updater wieder echte Idle-Fenster. V60 passives Warenlernen bleibt enthalten; keine neuen Speicherwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.62.zip",
+      "size": 121054,
+      "sha256": "9b75c70a8134a24c5ca8cd0a12628ece76f856e2edb08b71b21ab60cc052dc6f",
+      "build_id": "0a2e461058507f445f00779953b8360a885c871ac02fc34ca2f0260395fd0024",
+      "notes": "V0.11.62 HEADLESS WAREN FALSE-POSITIVE-GUARD: verwirft druckbare Text/ASCII-Bloecke, bevorzugt kleine natuerliche Lageraenderungen und verlangt Wiederkehr desselben Kandidaten ueber mehrere Runden. Ein altes V61-clear wird nicht als V62-Beweis akzeptiert; bestehende Rundenhistorie bleibt erhalten. Bis zu 12 passive Runden, weiterhin ohne Grafik/OCR/Maus/Tastatur und ohne Warenwrites."
     }
   ]
 }
