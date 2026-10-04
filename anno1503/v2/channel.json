@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1005,
+  "sequence": 1006,
   "releases": [
     {
-      "version": "0.11.44",
-      "generation": 19,
+      "version": "0.11.45",
+      "generation": 20,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.44.zip",
-      "size": 108442,
-      "sha256": "fae62145a3216d2642fb364a744a7c3fea68ceb31fc3bd9b1440e01013770bf3",
-      "build_id": "edf02408fa2a15f9c2ddb30e613cdf9587c63401b4d95a8a9c35d3ac388d06fd",
-      "notes": "Geld V0.11.44: zwei read-only Baselines vor genau einem Ctrl+M; nur stabile +500-Kandidaten. Danach nur eine kleine identische Hochwert-Gruppe (2..8) und reversible +1-Propagation/Restore. 999999 erst nach bestaetigter Source->Follower-Kopplung. Kein Burst."
+      "file": "ANNO1503_FULLSOURCE_0.11.45.zip",
+      "size": 108327,
+      "sha256": "9de30ad5a46d40f1adc03b1dd3f26c5d3f54dcbac5214606019f8de5bbc3ce64",
+      "build_id": "a55a9bd51d63c6b6fdb1a9b1696cdea88aac119d9e225ec42b7bd6534310c6ec",
+      "notes": "Geld V0.11.45: ein Baseline-Snapshot, genau ein Ctrl+M, danach zwei schnelle gezielte Stabilitaetsreads. Nur kleine identische Hochwert-Gruppe; reversible +1/Restore-Probe. 999999 erst nach bestaetigter Source->Follower-Kopplung. Kein Burst."
     }
   ]
 }
