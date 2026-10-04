@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 15,
+  "sequence": 1001,
   "releases": [
     {
-      "version": "0.11.39",
-      "generation": 14,
+      "version": "0.11.40",
+      "generation": 15,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.39.zip",
-      "size": 106267,
-      "sha256": "e00431956b2d557fc7f2a51a1d25928052a1500025c87c5c5f671f7916d2d1d7",
-      "build_id": "c72f68cc392a09b370beba344924f330f35a25614d1fb5f6d2b6c073bcf31fac",
-      "notes": "Geld: plausible hohe Kandidaten aus dem ersten exakten +500-Puls werden sofort per Write->Ctrl+M(+500)->Restore geprüft, bevor dynamische Spiegel veralten. Waren: die Waren-ID wird vor jedem Lern-+10 erneut gewählt, damit der echte Warenwert nicht beim zweiten Puls aus der Kandidatenmenge fällt."
+      "file": "ANNO1503_FULLSOURCE_0.11.40.zip",
+      "size": 107210,
+      "sha256": "fc5f5d4712d15fbd8ba8903cd9ba5776c166b5ff9b83ef9bb3b5e62a38c9958b",
+      "build_id": "b58487f4418faae6d56b058c7f482028c76af47ae7b274ddb1b8fb4b1be5f09b",
+      "notes": "Geld: wiederholte Ctrl+M-Pulse werden mit erzwungenem Anno-Fokus, explizitem Key-Release/Rearm und laengerer Down/Up-Sequenz gesendet. Der Lauf 20261004_175118 zeigte: Erstpuls reagierte, Folgepulse wurden nicht stabil verarbeitet. Waren unveraendert."
     }
   ]
 }
