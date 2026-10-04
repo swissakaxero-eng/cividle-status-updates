@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1014,
+  "sequence": 1015,
   "releases": [
     {
-      "version": "0.11.53",
-      "generation": 28,
+      "version": "0.11.54",
+      "generation": 29,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.53.zip",
-      "size": 108779,
-      "sha256": "f06cd61b2c02d24bc6ad3a074d193fc51ae3327e5d46bb92169d66c92361d747",
-      "build_id": "528f767536052ad93f400a9de1b56db1c3f22582daa1210274e681dc169ecafe",
-      "notes": "Geld V0.11.53: kritischer Fix. Vor jedem Geldtest wird automatisch die eigene Stadt/Kontor angewählt und ruamzuzla + Enter gesendet. Erst danach Baseline, genau ein Ctrl+M und read-only Kandidatenanalyse. Keine Speicherwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.54.zip",
+      "size": 109266,
+      "sha256": "86a3088bf5f730d1369dbf77199419d4556c5938a8b5a581d65e1d5b011788d7",
+      "build_id": "97a20fcdb9d456ed5d4ded0166186912355ac0489d15304eaa36fdd8a7096b2a",
+      "notes": "Geld V0.11.54: ruamzuzla wird automatisch aktiviert; erster Ctrl+M automatisch, danach 15s auf genau einen manuellen Ctrl+M warten. Read-only Kandidatenbestätigung, keine Speicherwrites."
     }
   ]
 }
