@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1003,
+  "sequence": 1004,
   "releases": [
     {
-      "version": "0.11.42",
-      "generation": 17,
+      "version": "0.11.43",
+      "generation": 18,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.42.zip",
-      "size": 106226,
-      "sha256": "4e1988afa446a5a073a3eb460e19fed96b5f20e81c4a5548e2c12475e4a61db8",
-      "build_id": "32ff67ba8d8e7941990e51c65d5dda24aaa1f9541beef77cb3f908fe68f2c088",
-      "notes": "Safety rollback after V0.11.41 game crash. Money learning/write path disabled. Money button performs only snapshot + exactly one Ctrl+M + read-only +500 diff; no process-memory writes."
+      "file": "ANNO1503_FULLSOURCE_0.11.43.zip",
+      "size": 107813,
+      "sha256": "e42ddef9985c5050e6aa1893083f30fe1c23bf6f6ebe8ca4428836b31a0784d9",
+      "build_id": "8ba7ed25b81cf2476b8662aaed314ad1f08e8079fd9390d65c7fc1b0fcc99051",
+      "notes": "Money safe-pair test after read-only V0.11.42: exactly one Ctrl+M discovery, require one unique large duplicate pair within 0x40 bytes, reversible +1 propagation/restore only. Write 999999 only if one address provably propagates to its paired follower; otherwise restore and abort. No Ctrl+M burst."
     }
   ]
 }
