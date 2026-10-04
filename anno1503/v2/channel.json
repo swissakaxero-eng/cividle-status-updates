@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1019,
+  "sequence": 1020,
   "releases": [
     {
-      "version": "0.11.58",
-      "generation": 33,
+      "version": "0.11.59",
+      "generation": 34,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.58.zip",
-      "size": 112900,
-      "sha256": "f5c8fbc3e552bda571e3f2635b185a06b4ee31a2ed99cff706d4d749885149d3",
-      "build_id": "01f7b3fe9bba2ad8792ff162b09ceba5ae7383d72141e2c995363b6621858713",
-      "notes": "Geld V0.11.58: lernt aus der aktuell bestaetigten Geldquelle eine restart-faehige Struktur (stabile Nachbarschaftsanker + modulrelative Pointerpfade), macht einen Same-Session-Selbsttest und versucht nach einem neuen Anno-Prozess automatisch eine READ-ONLY Wiedererkennung. Noch kein automatischer Geld-Write nach Restart."
+      "file": "ANNO1503_FULLSOURCE_0.11.59.zip",
+      "size": 116686,
+      "sha256": "b4fd00fd65fffdf5e04735d765151974bc3dbbba6ad606ea1857ef460e2b6a65",
+      "build_id": "32f5aede1c15abb4e7982798d1a534b5f78e243dac1b4629606258d7a0ad0893",
+      "notes": "Geld V0.11.59 HEADLESS: reines Prozessspeicher-Lernen ohne Grafik/OCR/Klicks/Tastatur. Lernt Allocation-/VirtualQuery-Topologie plus ueber ~10s stabile Langzeit-Anker aus der bestaetigten Geldquelle. Alter V58-Locator wird automatisch ersetzt. Nach neuem Anno-Prozess automatische READ-ONLY Wiedererkennung; noch kein automatischer Write."
     }
   ]
 }
