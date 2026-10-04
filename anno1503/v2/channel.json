@@ -3,18 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1018,
-  "releases": [{
-    "version": "0.11.57",
-    "generation": 32,
-    "format": "full-source",
-    "protocol": 2,
-    "approved": true,
-    "transport": "onedrive",
-    "file": "ANNO1503_FULLSOURCE_0.11.57.zip",
-    "size": 108433,
-    "sha256": "3e7f59f2a780eb8b8467cad59ec168051d3944a08c3c34806b0b73c486232ba7",
-    "build_id": "3544b1c1da1bd73a715742666bb9c184dbe480704963917b32cede8afe50ae05",
-    "notes": "Confirmed money source update."
-  }]
+  "sequence": 1019,
+  "releases": [
+    {
+      "version": "0.11.58",
+      "generation": 33,
+      "format": "full-source",
+      "protocol": 2,
+      "approved": true,
+      "transport": "onedrive",
+      "file": "ANNO1503_FULLSOURCE_0.11.58.zip",
+      "size": 112900,
+      "sha256": "f5c8fbc3e552bda571e3f2635b185a06b4ee31a2ed99cff706d4d749885149d3",
+      "build_id": "01f7b3fe9bba2ad8792ff162b09ceba5ae7383d72141e2c995363b6621858713",
+      "notes": "Geld V0.11.58: lernt aus der aktuell bestaetigten Geldquelle eine restart-faehige Struktur (stabile Nachbarschaftsanker + modulrelative Pointerpfade), macht einen Same-Session-Selbsttest und versucht nach einem neuen Anno-Prozess automatisch eine READ-ONLY Wiedererkennung. Noch kein automatischer Geld-Write nach Restart."
+    }
+  ]
 }
