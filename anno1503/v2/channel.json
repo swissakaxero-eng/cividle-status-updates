@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 14,
+  "sequence": 15,
   "releases": [
     {
-      "version": "0.11.38",
-      "generation": 13,
+      "version": "0.11.39",
+      "generation": 14,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.38.zip",
-      "size": 105659,
-      "sha256": "c25d76980b14bb9d8101ce66a73e1d8f2fb927190c2c686002d6bb7779e971bf",
-      "build_id": "d4bffa11aa4fc51b925a6c9966477df26127632d3238a174fc98c5edfd9b3aaf",
-      "notes": "Geld/Waren: bisher vom Legacy-Snapshot ausgelassene >64-MiB-Speicherregionen werden chunkweise gezielt gescannt. Geld prueft zusaetzlich das frueher stark bestaetigte Seed derselben exakten Anno-Sitzung und lokale Ergebnisarchive. Waren akzeptiert nur Write->+10->Restore und setzt erst danach direkt 900; alter Vollscan nur Fallback."
+      "file": "ANNO1503_FULLSOURCE_0.11.39.zip",
+      "size": 106267,
+      "sha256": "e00431956b2d557fc7f2a51a1d25928052a1500025c87c5c5f671f7916d2d1d7",
+      "build_id": "c72f68cc392a09b370beba344924f330f35a25614d1fb5f6d2b6c073bcf31fac",
+      "notes": "Geld: plausible hohe Kandidaten aus dem ersten exakten +500-Puls werden sofort per Write->Ctrl+M(+500)->Restore geprüft, bevor dynamische Spiegel veralten. Waren: die Waren-ID wird vor jedem Lern-+10 erneut gewählt, damit der echte Warenwert nicht beim zweiten Puls aus der Kandidatenmenge fällt."
     }
   ]
 }
