@@ -3,7 +3,7 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1024,
+  "sequence": 1025,
   "releases": [
     {
       "version": "0.11.63",
@@ -16,7 +16,7 @@
       "size": 123062,
       "sha256": "a9747fc8820a411a8e6bbfc420fa91ed8930049de8b89a70955eb9c40732edb5",
       "build_id": "43dbca9178615d581c8a984623920720b1dcaeb3e54c2fec986b67d95d0ffa85",
-      "notes": "V0.11.63 HEADLESS WAREN LIVE-STABILITAET: ein V62-Kandidat wird erst clear, wenn mehrere verzögerte Read-only-Liveprüfungen denselben Block weiter plausibel zeigen. Vergängliche/stale Kandidaten, die auf Null zusammenbrechen, werden fail-closed verworfen. V62 Text-/Small-Delta-/Consensus-Guards bleiben aktiv; bis zu 16 passive Runden; weiterhin keine Warenwrites und keine Grafik/OCR/Maus/Tastatur."
+      "notes": "V0.11.63 HEADLESS WAREN LIVE-STABILITAET: Kandidaten werden erst nach verzoegerter Read-only-Livepruefung freigegeben. Transiente/stale Kandidaten werden fail-closed verworfen. Keine Warenwrites, keine Grafik, kein OCR, keine Maus/Tastatur."
     }
   ]
 }
