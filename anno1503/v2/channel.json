@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1016,
+  "sequence": 1017,
   "releases": [
     {
-      "version": "0.11.55",
-      "generation": 30,
+      "version": "0.11.56",
+      "generation": 31,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.55.zip",
-      "size": 109155,
-      "sha256": "2884cae1f70b1243ceffd5f54a0865b04b3d23ab599c941a45d4a31caa9e6a4a",
-      "build_id": "cc31bafa65ce2a2d53c3a5fe7e2e791d19a34f6ea40f2046629e15888b5f057c",
-      "notes": "Geld V0.11.55: ruamzuzla wird automatisch aktiviert. Danach Baseline und 20s auf einen echten physischen STRG+M-Tastendruck warten, erkannt via GetAsyncKeyState. Kein synthetisches Ctrl+M, keine Speicherwrites; danach read-only +500-Diff und 5s Stabilitaetstrace."
+      "file": "ANNO1503_FULLSOURCE_0.11.56.zip",
+      "size": 109269,
+      "sha256": "14c949db41f656339fb1161215f334761a4949eb34a57d56eff924f4a05b1592",
+      "build_id": "c380e808087039664ef1e1ace70363e326fc4fcd26fca43e6436749bb4bf404d",
+      "notes": "Geld V0.11.56: ruamzuzla automatisch; gezielter Read-only-Test nur fuer sichtbaren Geldwert 956387. Baseline sucht exakt 956387, danach manueller STRG+M und Bestaetigung auf exakt 956887 plus 5s Persistenz. Keine Speicherwrites."
     }
   ]
 }
