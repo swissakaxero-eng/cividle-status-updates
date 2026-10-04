@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1020,
+  "sequence": 1021,
   "releases": [
     {
-      "version": "0.11.59",
-      "generation": 34,
+      "version": "0.11.60",
+      "generation": 35,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.59.zip",
-      "size": 116686,
-      "sha256": "b4fd00fd65fffdf5e04735d765151974bc3dbbba6ad606ea1857ef460e2b6a65",
-      "build_id": "32f5aede1c15abb4e7982798d1a534b5f78e243dac1b4629606258d7a0ad0893",
-      "notes": "Geld V0.11.59 HEADLESS: reines Prozessspeicher-Lernen ohne Grafik/OCR/Klicks/Tastatur. Lernt Allocation-/VirtualQuery-Topologie plus ueber ~10s stabile Langzeit-Anker aus der bestaetigten Geldquelle. Alter V58-Locator wird automatisch ersetzt. Nach neuem Anno-Prozess automatische READ-ONLY Wiedererkennung; noch kein automatischer Write."
+      "file": "ANNO1503_FULLSOURCE_0.11.60.zip",
+      "size": 121264,
+      "sha256": "2a6994424271dd41830a4ff3419108d3b4bb5cfd3287b30041b86a61ad6e4a34",
+      "build_id": "66c1d5a41855305d25d4443a9d695e208513c2795a4d10558b8b94164b342e2a",
+      "notes": "V0.11.60 HEADLESS WAREN: passives Prozessspeicher-Lernen ohne Grafik/OCR/Maus/Tastatur und ohne Speicherwrites. Beobachtet natuerliche 16/32-bit Lageraenderungen in privaten Speicherregionen nahe der bestaetigten Spielerstruktur, leitet ID-indexierte Warenlayouts ab und speichert Restart-Topologie fuer die staerksten Kandidaten. Geld-V59-Headless bleibt enthalten."
     }
   ]
 }
