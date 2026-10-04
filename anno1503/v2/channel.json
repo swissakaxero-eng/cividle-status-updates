@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1012,
+  "sequence": 1013,
   "releases": [
     {
-      "version": "0.11.51",
-      "generation": 26,
+      "version": "0.11.52",
+      "generation": 27,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.51.zip",
-      "size": 108771,
-      "sha256": "aaa6b0e0f04932cf376b8dffc700a19cdbcb469d377cdf7dff30483123463292",
-      "build_id": "9ac9de373af1ab5fa98b553190378cf66313271fce447ccf578b1c60bc142c32",
-      "notes": "Geld V0.11.51: read-only Eingabemethodenvergleich. Erster Ctrl+M wie bisher; zweiter einzelner Ctrl+M nach 2s als physische Scan-Codes (Ctrl=0x1D, M=0x32) via SendInput. Keine Speicherwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.52.zip",
+      "size": 109265,
+      "sha256": "2b627ed84eb6ce90ad623f07bb32c743cde2dff8c43bb0848370de816f09bafe",
+      "build_id": "0847e1aa27407311a2776bb6bdc96d2bbd456e848d422905ef2bc796622e6caa",
+      "notes": "Geld V0.11.52: erster Ctrl+M automatisch, danach 15 Sekunden read-only auf genau einen manuellen Ctrl+M des Benutzers warten. Kandidaten werden nur gelesen; keine Speicherwrites."
     }
   ]
 }
