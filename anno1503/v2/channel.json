@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1010,
+  "sequence": 1011,
   "releases": [
     {
-      "version": "0.11.49",
-      "generation": 24,
+      "version": "0.11.50",
+      "generation": 25,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.49.zip",
-      "size": 108135,
-      "sha256": "6774bf51e643015121f7a78ceaca387b3fe28e321be049c291095471d006b54c",
-      "build_id": "34f72ce01e79ebc07d044f254393cc18e7b3b999c478df78e2eda1ff7f669634",
-      "notes": "Geld V0.11.49: read-only 10-Sekunden-Zeitreihe aller initialen +500-Kandidaten nach genau einem Ctrl+M. Keine Speicherwrites. Ziel: Timer/Spiegel von stabiler echter Geldquelle trennen."
+      "file": "ANNO1503_FULLSOURCE_0.11.50.zip",
+      "size": 108648,
+      "sha256": "3d6eff2554f6c25ae83e54ad0cb60f07540a94806106060dec5f5a4dbf8f0881",
+      "build_id": "eaefc13aab92ddc7c3a7ccd8837b3ddbecfcb3fdf71dc2eeae403116522f31b2",
+      "notes": "Geld V0.11.50: read-only Eingabemethodenvergleich. Erster Ctrl+M via keybd_event, zweiter getrennt nach 2s via Win32 SendInput. Nur Kandidatenbeobachtung, keine Speicherwrites."
     }
   ]
 }
