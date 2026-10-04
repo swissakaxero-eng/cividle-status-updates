@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1011,
+  "sequence": 1012,
   "releases": [
     {
-      "version": "0.11.50",
-      "generation": 25,
+      "version": "0.11.51",
+      "generation": 26,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.50.zip",
-      "size": 108648,
-      "sha256": "3d6eff2554f6c25ae83e54ad0cb60f07540a94806106060dec5f5a4dbf8f0881",
-      "build_id": "eaefc13aab92ddc7c3a7ccd8837b3ddbecfcb3fdf71dc2eeae403116522f31b2",
-      "notes": "Geld V0.11.50: read-only Eingabemethodenvergleich. Erster Ctrl+M via keybd_event, zweiter getrennt nach 2s via Win32 SendInput. Nur Kandidatenbeobachtung, keine Speicherwrites."
+      "file": "ANNO1503_FULLSOURCE_0.11.51.zip",
+      "size": 108771,
+      "sha256": "aaa6b0e0f04932cf376b8dffc700a19cdbcb469d377cdf7dff30483123463292",
+      "build_id": "9ac9de373af1ab5fa98b553190378cf66313271fce447ccf578b1c60bc142c32",
+      "notes": "Geld V0.11.51: read-only Eingabemethodenvergleich. Erster Ctrl+M wie bisher; zweiter einzelner Ctrl+M nach 2s als physische Scan-Codes (Ctrl=0x1D, M=0x32) via SendInput. Keine Speicherwrites."
     }
   ]
 }
