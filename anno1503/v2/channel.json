@@ -3,20 +3,20 @@
   "app_id": "anno1503trainer",
   "kind": "release-feed",
   "track": "stable",
-  "sequence": 1001,
+  "sequence": 1002,
   "releases": [
     {
-      "version": "0.11.40",
-      "generation": 15,
+      "version": "0.11.41",
+      "generation": 16,
       "format": "full-source",
       "protocol": 2,
       "approved": true,
       "transport": "onedrive",
-      "file": "ANNO1503_FULLSOURCE_0.11.40.zip",
-      "size": 107210,
-      "sha256": "fc5f5d4712d15fbd8ba8903cd9ba5776c166b5ff9b83ef9bb3b5e62a38c9958b",
-      "build_id": "b58487f4418faae6d56b058c7f482028c76af47ae7b274ddb1b8fb4b1be5f09b",
-      "notes": "Geld: wiederholte Ctrl+M-Pulse werden mit erzwungenem Anno-Fokus, explizitem Key-Release/Rearm und laengerer Down/Up-Sequenz gesendet. Der Lauf 20261004_175118 zeigte: Erstpuls reagierte, Folgepulse wurden nicht stabil verarbeitet. Waren unveraendert."
+      "file": "ANNO1503_FULLSOURCE_0.11.41.zip",
+      "size": 108270,
+      "sha256": "4105421b16be7bc44df50cfeea2ccc2c0c982b128abf1965db2891e3c0b6f25b",
+      "build_id": "cc4e389e21e78504b927cc19f272a9c4461d972cbe8bfb7d678f02926e94825f",
+      "notes": "Geld V0.11.41: Ctrl bleibt fuer einen Geld-Burst gedrueckt, M wird 3x ausgeloest; +N*500 wird als gueltige Cheat-Reaktion erkannt. Frischer Burst benoetigt keinen separaten zweiten Ctrl+M-Puls. Fruehe plausible Geldwerte werden ab 1000 geprueft."
     }
   ]
 }
